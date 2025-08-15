@@ -44,7 +44,28 @@ def fetch_study_downloads(study_accession):
 
     print("Download completed.")
         
+# Extract from gz files if needed
+import gzip
+def extract_gz_file(gz_filename):
+    """Extract a .gz file and return the name of the extracted file."""
+    extracted_filename = gz_filename[:-3]  # Remove the .gz extension
+    with gzip.open(gz_filename, 'rb') as f_in:
+        with open(extracted_filename, 'wb') as f_out:
+            f_out.write(f_in.read())
+    print(f"Extracted {gz_filename} to {extracted_filename}.")
+    return extracted_filename
+
 def parse_fasta_file(filename):
+    # Check if the file exists
+    if not os.path.exists(filename):
+        print(f"File {filename} does not exist.")
+        return
+    
+    # Check if the file is gzipped
+    if filename.endswith('.gz'):
+        print(f"File {filename} is gzipped, extracting...")
+        filename = extract_gz_file(filename)
+
     """Parse a FASTA file and return a list of sequences."""
     sequences = []
     with open(filename, 'r') as file:
@@ -63,6 +84,17 @@ def parse_fasta_file(filename):
 if __name__ == "__main__":
     # Study focusing on microbial communities in heavy metal contaminated soils
     # https://www.ebi.ac.uk/metagenomics/studies/MGYS00001589#overview
-    fetch_study_downloads("MGYS00001589")
+    # fetch_study_downloads("MGYS00001589")
 
-    parse_fasta_file("downloads/MGYS00001589/MGYA00103632/ERR788946_MERGED_FASTQ_16SrRNA.fasta")
+    # Parse all the files in the downloads directory using the parse_fasta_file function
+    downloads_dir = "downloads/MGYS00001589/MGYA00103632"
+    for root, dirs, files in os.walk(downloads_dir):
+        for file in files:
+            if file.endswith('.fasta') or file.endswith('.fa'):
+                file_path = os.path.join(root, file)
+                print(f"Parsing {file_path}...")
+                parse_fasta_file(file_path)
+            elif file.endswith('.gz'):
+                file_path = os.path.join(root, file)
+                print(f"Parsing gzipped file {file_path}...")
+                parse_fasta_file(file_path)

@@ -1,0 +1,133 @@
+# Snakemake pipeline: Screen metagenomes for ArsR/SmtB (PF01022) and MerR (PF00376) regulators
+# Expected layout:
+#  - Raw reads: downloads/<study>/<analysis>/*_R{1,2}.fasta.gz (or single-end *fastq.gz)
+#  - HMMs: hmm/PF01022.hmm, hmm/PF00376.hmm
+#  - Outputs under: results/<analysis>/...
+
+import os
+from glob import glob
+
+STUDY_DIR = "downloads" 
+RESULTS = "results"
+
+# Discover analyses automatically
+analyses = []
+if os.path.exists(STUDY_DIR):
+    for root, dirs, files in os.walk(STUDY_DIR):
+        # detect FASTQ presence
+        fq = [f for f in files if f.endswith((".fasta.gz"))]
+        if fq:
+            # analysis id = last directory name with fastqs
+            analyses.append(root)
+
+analyses = sorted(set(analyses))
+
+HMMs = ["downloads/hmm/PF01022.hmm", "downloads/hmm/PF00376.hmm"]  # ArsR/SmtB, MerR
+
+rule all:
+    input:
+        expand("{results}/{analysis}/report/hmm_hits.csv", results=RESULTS, analysis=[os.path.basename(a) for a in analyses])
+
+def sample_reads(analysis_dir):
+    """Return tuple (R1, R2 or None) or single-end list for the given analysis_dir."""
+    r1 = sorted(glob(os.path.join(analysis_dir, "*_R1*.fasta.gz")) + glob(os.path.join(analysis_dir, "*_1.fasta.gz")))
+    r2 = sorted(glob(os.path.join(analysis_dir, "*_R2*.fasta.gz")) + glob(os.path.join(analysis_dir, "*_2.fasta.gz")))
+    if r1 and r2:
+        return r1[0], r2[0]
+    # single-end fallback
+    se = sorted(glob(os.path.join(analysis_dir, "*.fasta.gz")))
+    if se:
+        return (se[0], None)
+    raise ValueError(f"No FASTQ files found in {analysis_dir}")
+
+def outdir(analysis):
+    return os.path.join(RESULTS, os.path.basename(analysis))
+
+rule fastp:
+    input:
+        lambda wildcards: sample_reads(os.path.join(STUDY_DIR, wildcards.analysis))
+    output:
+        R1 = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "qc", "clean_R1.fasta.gz"),
+        R2 = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "qc", "clean_R2.fasta.gz")
+    params:
+        json = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "qc", "fastp.json"),
+        html = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "qc", "fastp.html")
+    threads: 4
+    shell:
+        r"""
+        mkdir -p {outdir} && \
+        if [ -n "{input[1]}" ] && [ "{input[1]}" != "None" ]; then
+            fastp -i {input[0]} -I {input[1]} -o {output.R1} -O {output.R2} \
+                  -w {threads} -j {params.json} -h {params.html}
+        else
+            fastp -i {input[0]} -o {output.R1} -w {threads} -j {params.json} -h {params.html}
+            # create dummy R2 for downstream rules
+            ln -sf $(basename {output.R1}) {output.R2} || true
+        fi
+        """.replace("{outdir}", r"{}/qc".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))
+
+rule megahit:
+    input:
+        R1 = rules.fastp.output.R1,
+        R2 = rules.fastp.output.R2
+    output:
+        contigs = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "assembly", "final.contigs.fa")
+    threads: 8
+    shell:
+        r"""
+        mkdir -p {outdir}
+        if [ -s {input.R2} ]; then
+            megahit -1 {input.R1} -2 {input.R2} -o {outdir} -t {threads} --min-contig-len 1000
+        else
+            megahit -r {input.R1} -o {outdir} -t {threads} --min-contig-len 1000
+        fi
+        """.replace("{outdir}", r"{}/assembly".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))
+
+rule prodigal:
+    input:
+        contigs = rules.megahit.output.contigs
+    output:
+        faa = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "genes", "proteins.faa"),
+        ffn = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "genes", "genes.ffn"),
+        gff = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "genes", "prodigal.gff")
+    shell:
+        r"""
+        mkdir -p {outdir}
+        prodigal -i {input.contigs} -a {output.faa} -d {output.ffn} -o {output.gff} -p meta
+        """.replace("{outdir}", r"{}/genes".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))
+
+rule hmmsearch:
+    input:
+        faa = rules.prodigal.output.faa,
+        hmm = lambda wc: "hmm/{}.hmm".format(wc.family)
+    output:
+        tbl = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "hmm", "{family}.tblout")
+    params:
+        domE = "1e-5"
+    shell:
+        r"""
+        mkdir -p {outdir}
+        hmmsearch --cpu 4 --domE {params.domE} --tblout {output.tbl} {input.hmm} {input.faa} > /dev/null
+        """.replace("{outdir}", r"{}/hmm".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))
+
+# Expand HMM search for each analysis and each family
+use rule hmmsearch as hmmsearch_PF01022 with:
+    wildcard_constraints = dict(family="PF01022")
+
+use rule hmmsearch as hmmsearch_PF00376 with:
+    wildcard_constraints = dict(family="PF00376")
+
+rule parse_hits:
+    input:
+        PF01022 = rules.hmmsearch_PF01022.output.tbl,
+        PF00376 = rules.hmmsearch_PF00376.output.tbl,
+        faa = rules.prodigal.output.faa
+    output:
+        csv = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "report", "hmm_hits.csv")
+    shell:
+        r"""
+        mkdir -p {outdir}
+        python scripts/parse_hmm_tblout.py --faa {input.faa} \
+            --tbl PF01022:{input.PF01022} PF00376:{input.PF00376} \
+            --out {output.csv}
+        """.replace("{outdir}", r"{}/report".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))

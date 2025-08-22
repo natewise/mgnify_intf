@@ -1,0 +1,14 @@
+name: meta-biosensor
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.11
+  - snakemake
+  - fastp
+  - megahit
+  - prodigal
+  - hmmer
+  - pip
+  - pip:
+      - pandas

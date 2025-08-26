@@ -84,17 +84,17 @@ def parse_fasta_file(filename):
 if __name__ == "__main__":
     # Study focusing on microbial communities in heavy metal contaminated soils
     # https://www.ebi.ac.uk/metagenomics/studies/MGYS00001589#overview
-    # fetch_study_downloads("MGYS00001589")
+    fetch_study_downloads("MGYS00001589")
 
     # Parse all the files in the downloads directory using the parse_fasta_file function
-    downloads_dir = "downloads/MGYS00001589/MGYA00103632"
-    for root, dirs, files in os.walk(downloads_dir):
-        for file in files:
-            if file.endswith('.fasta') or file.endswith('.fa'):
-                file_path = os.path.join(root, file)
-                print(f"Parsing {file_path}...")
-                parse_fasta_file(file_path)
-            elif file.endswith('.gz'):
-                file_path = os.path.join(root, file)
-                print(f"Parsing gzipped file {file_path}...")
-                parse_fasta_file(file_path)
+    # downloads_dir = "downloads/MGYS00001589/MGYA00103632"
+    # for root, dirs, files in os.walk(downloads_dir):
+    #     for file in files:
+    #         if file.endswith('.fasta') or file.endswith('.fa'):
+    #             file_path = os.path.join(root, file)
+    #             print(f"Parsing {file_path}...")
+    #             parse_fasta_file(file_path)
+    #         elif file.endswith('.gz'):
+    #             file_path = os.path.join(root, file)
+    #             print(f"Parsing gzipped file {file_path}...")
+    #             parse_fasta_file(file_path)

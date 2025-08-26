@@ -1,8 +1,10 @@
 import os
 import subprocess
 import shutil
+from scripts.mgnfy_interface import fetch_study_downloads
 
-STUDY_DIR = "downloads/MGYS00001589"
+STUDY_ACCESSION = "MGYS00001589"
+STUDY_DIR = f"downloads/{STUDY_ACCESSION}"
 RESULTS = "results"
 HMMs = ["hmm/PF01022.hmm", "hmm/PF00376.hmm"]  # ArsR/SmtB, MerR
 
@@ -111,26 +113,32 @@ def parse_hits(faa, tbls, outcsv):
 # Main loop (sequential)
 ############################################
 
-analyses = list_analyses()
-for analysis in analyses:
-    print(f"Processing {analysis}")
-    analysis_dir = os.path.join(STUDY_DIR, analysis)
-    cleaned_dir = os.path.join(RESULTS, analysis, "cleaned")
-    assembly_dir = os.path.join(RESULTS, analysis, "assembly")
-    genes_dir = os.path.join(RESULTS, analysis, "genes")
-    hmm_dir = os.path.join(RESULTS, analysis, "hmm")
-    report_dir = os.path.join(RESULTS, analysis, "report")
+if __name__ == "__main__":
+  # Download the study files if not already available
+  if not os.path.exists("downloads"):
+    fetch_study_downloads(STUDY_ACCESSION)
 
-    reads = sample_reads(analysis_dir)
-    R1, R2 = run_fastp(reads, cleaned_dir)
-    contigs = run_megahit(R1, R2, assembly_dir)
-    faa = run_prodigal(contigs, genes_dir)
+  # Start processing metagenomic pipeline
+  analyses = list_analyses()
+  for analysis in analyses:
+      print(f"Processing {analysis}")
+      analysis_dir = os.path.join(STUDY_DIR, analysis)
+      cleaned_dir = os.path.join(RESULTS, analysis, "cleaned")
+      assembly_dir = os.path.join(RESULTS, analysis, "assembly")
+      genes_dir = os.path.join(RESULTS, analysis, "genes")
+      hmm_dir = os.path.join(RESULTS, analysis, "hmm")
+      report_dir = os.path.join(RESULTS, analysis, "report")
 
-    tbls = {}
-    for hmm in HMMs:
-        tbl = run_hmmsearch(faa, hmm, hmm_dir)
-        tbls[os.path.basename(hmm).replace(".hmm","")] = tbl
+      reads = sample_reads(analysis_dir)
+      R1, R2 = run_fastp(reads, cleaned_dir)
+      contigs = run_megahit(R1, R2, assembly_dir)
+      faa = run_prodigal(contigs, genes_dir)
 
-    outcsv = os.path.join(report_dir, "hmm_hits.csv")
-    parse_hits(faa, tbls, outcsv)
-    print(f"Finished {analysis}, report: {outcsv}")
+      tbls = {}
+      for hmm in HMMs:
+          tbl = run_hmmsearch(faa, hmm, hmm_dir)
+          tbls[os.path.basename(hmm).replace(".hmm","")] = tbl
+
+      outcsv = os.path.join(report_dir, "hmm_hits.csv")
+      parse_hits(faa, tbls, outcsv)
+      print(f"Finished {analysis}, report: {outcsv}")

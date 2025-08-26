@@ -12,3 +12,4 @@ dependencies:
   - pip
   - pip:
       - pandas
+      - jsonapi-client

@@ -3,3 +3,4 @@ ref/*
 hmm/*
 .snakemake/*
 results/*
+scripts/__pycache__/*

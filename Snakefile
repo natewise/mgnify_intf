@@ -7,7 +7,7 @@
 import os
 from glob import glob
 
-STUDY_DIR = "downloads" 
+STUDY_DIR = "downloads/MGYS00001589" 
 RESULTS = "results"
 
 # Discover analyses automatically
@@ -22,7 +22,7 @@ if os.path.exists(STUDY_DIR):
 
 analyses = sorted(set(analyses))
 
-HMMs = ["downloads/hmm/PF01022.hmm", "downloads/hmm/PF00376.hmm"]  # ArsR/SmtB, MerR
+HMMs = ["hmm/PF01022.hmm", "hmm/PF00376.hmm"]  # ArsR/SmtB, MerR
 
 rule all:
     input:
@@ -47,11 +47,11 @@ rule fastp:
     input:
         lambda wildcards: sample_reads(os.path.join(STUDY_DIR, wildcards.analysis))
     output:
-        R1 = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "qc", "clean_R1.fasta.gz"),
-        R2 = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "qc", "clean_R2.fasta.gz")
+        R1 = "{results}/{analysis}/qc/clean_R1.fasta.gz",
+        R2 = "{results}/{analysis}/qc/clean_R2.fasta.gz"
     params:
-        json = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "qc", "fastp.json"),
-        html = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "qc", "fastp.html")
+        json = "{results}/{analysis}/qc/fastp.json",
+        html = "{results}/{analysis}/qc/fastp.html"
     threads: 4
     shell:
         r"""
@@ -64,14 +64,14 @@ rule fastp:
             # create dummy R2 for downstream rules
             ln -sf $(basename {output.R1}) {output.R2} || true
         fi
-        """.replace("{outdir}", r"{}/qc".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))
+        """.replace("{outdir}", r"{results}/{analysis}/qc")
 
 rule megahit:
     input:
         R1 = rules.fastp.output.R1,
         R2 = rules.fastp.output.R2
     output:
-        contigs = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "assembly", "final.contigs.fa")
+        contigs = "{results}/{analysis}/assembly/final.contigs.fa"
     threads: 8
     shell:
         r"""
@@ -81,53 +81,46 @@ rule megahit:
         else
             megahit -r {input.R1} -o {outdir} -t {threads} --min-contig-len 1000
         fi
-        """.replace("{outdir}", r"{}/assembly".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))
+        """.replace("{outdir}", r"{results}/{analysis}/assembly")
 
 rule prodigal:
     input:
         contigs = rules.megahit.output.contigs
     output:
-        faa = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "genes", "proteins.faa"),
-        ffn = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "genes", "genes.ffn"),
-        gff = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "genes", "prodigal.gff")
+        faa = "{results}/{analysis}/genes/proteins.faa",
+        ffn = "{results}/{analysis}/genes/genes.ffn",
+        gff = "{results}/{analysis}/genes/prodigal.gff"
     shell:
         r"""
         mkdir -p {outdir}
         prodigal -i {input.contigs} -a {output.faa} -d {output.ffn} -o {output.gff} -p meta
-        """.replace("{outdir}", r"{}/genes".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))
+        """.replace("{outdir}", r"{results}/{analysis}/genes")
 
 rule hmmsearch:
     input:
         faa = rules.prodigal.output.faa,
-        hmm = lambda wc: "hmm/{}.hmm".format(wc.family)
+        hmm = "hmm/{family}.hmm"
     output:
-        tbl = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "hmm", "{family}.tblout")
+        tbl = "{results}/{analysis}/hmm/{family}.tblout"
     params:
         domE = "1e-5"
     shell:
         r"""
         mkdir -p {outdir}
         hmmsearch --cpu 4 --domE {params.domE} --tblout {output.tbl} {input.hmm} {input.faa} > /dev/null
-        """.replace("{outdir}", r"{}/hmm".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))
-
-# Expand HMM search for each analysis and each family
-use rule hmmsearch as hmmsearch_PF01022 with:
-    wildcard_constraints = dict(family="PF01022")
-
-use rule hmmsearch as hmmsearch_PF00376 with:
-    wildcard_constraints = dict(family="PF00376")
+        """.replace("{outdir}", r"{results}/{analysis}/hmm")
 
 rule parse_hits:
     input:
-        PF01022 = rules.hmmsearch_PF01022.output.tbl,
-        PF00376 = rules.hmmsearch_PF00376.output.tbl,
-        faa = rules.prodigal.output.faa
+        PF01022 = "{results}/{analysis}/hmm/PF01022.tblout",
+        PF00376 = "{results}/{analysis}/hmm/PF00376.tblout",
+        faa = "{results}/{analysis}/genes/proteins.faa"
     output:
-        csv = lambda wc: os.path.join(outdir(os.path.join(STUDY_DIR, wc.analysis)), "report", "hmm_hits.csv")
+        csv = "{results}/{analysis}/report/hmm_hits.csv"
     shell:
         r"""
         mkdir -p {outdir}
         python scripts/parse_hmm_tblout.py --faa {input.faa} \
             --tbl PF01022:{input.PF01022} PF00376:{input.PF00376} \
             --out {output.csv}
-        """.replace("{outdir}", r"{}/report".format(outdir(os.path.join(STUDY_DIR, "{wildcards.analysis}"))))
+        """.replace("{outdir}", r"{results}/{analysis}/report")

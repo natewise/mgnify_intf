@@ -12,7 +12,7 @@ import os, textwrap, json, tarfile, io, pathlib
 # Get base dir from location of this script
 base_dir = pathlib.Path(__file__).parent.resolve()
 scripts_dir = f"{base_dir}/scripts"
-hmm_dir = f"{base_dir}/downloads/hmm"
+hmm_dir = f"{base_dir}/hmm"
 
 #!/usr/bin/env python3
 import argparse, csv, re

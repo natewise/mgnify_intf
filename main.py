@@ -26,10 +26,10 @@ def detect_format(path):
     else:
         raise ValueError(f"Unknown file format: {path}")
 
-def sample_reads(analysis_dir):
-    files = sorted([os.path.join(analysis_dir,f) for f in os.listdir(analysis_dir) if f.endswith(".gz")])
+def fasta_sample_reads(analysis_dir):
+    files = sorted([os.path.join(analysis_dir,f) for f in os.listdir(analysis_dir) if f.endswith("MERGED_FASTQ.fasta.gz")])
     if not files:
-        raise ValueError(f"No .gz files found in {analysis_dir}")
+        raise ValueError(f"No fasta.gz files found in {analysis_dir}")
     return files
 
 ############################################
@@ -39,12 +39,14 @@ def sample_reads(analysis_dir):
 def run_fastp(reads, outdir):
     os.makedirs(outdir, exist_ok=True)
     fmt = detect_format(reads[0])
-    R1_out = os.path.join(outdir, "clean_R1.fq.gz")
-    R2_out = os.path.join(outdir, "clean_R2.fq.gz")
     json_out = os.path.join(outdir, "fastp.json")
     html_out = os.path.join(outdir, "fastp.html")
+    R1_out = None
+    R2_out = None
 
     if fmt == "fastq":
+        R1_out = os.path.join(outdir, "clean_R1.fastq.gz")
+        R2_out = os.path.join(outdir, "clean_R2.fastq.gz")
         if len(reads) > 1:
             cmd = ["fastp", "-i", reads[0], "-I", reads[1], "-o", R1_out, "-O", R2_out, "-j", json_out, "-h", html_out]
         else:
@@ -53,6 +55,8 @@ def run_fastp(reads, outdir):
                 os.symlink(R1_out, R2_out)
         subprocess.run(cmd, check=True)
     elif fmt == "fasta":
+        R1_out = os.path.join(outdir, "clean_R1.fasta.gz")
+        R2_out = os.path.join(outdir, "clean_R2.fasta.gz")
         # Only create R2 if there are two reads (paired-end), otherwise set R2 to None
         os.makedirs(os.path.dirname(R1_out), exist_ok=True)
         shutil.copy2(reads[0], R1_out)
@@ -129,7 +133,7 @@ if __name__ == "__main__":
       hmm_dir = os.path.join(RESULTS, analysis, "hmm")
       report_dir = os.path.join(RESULTS, analysis, "report")
 
-      reads = sample_reads(analysis_dir)
+      reads = fasta_sample_reads(analysis_dir)
       R1, R2 = run_fastp(reads, cleaned_dir)
       contigs = run_megahit(R1, R2, assembly_dir)
       faa = run_prodigal(contigs, genes_dir)

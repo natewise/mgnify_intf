@@ -27,4 +27,6 @@ mamba activate meta-biosensor
 #    (Use Pfam-A or curated HMMs; run `hmmpress` on them once.)
 
 # 4) Run the pipeline
-snakemake -j 8
+python3 main.py
+
+# For megahit compatibility, if running in WSL, this repo must be copied within a subdirectory of your home directory

@@ -51,12 +51,14 @@ def run_fastp(reads, outdir):
                 os.symlink(R1_out, R2_out)
         subprocess.run(cmd, check=True)
     elif fmt == "fasta":
-        # Ensure parent directory exists before copying
+        # Only create R2 if there are two reads (paired-end), otherwise set R2 to None
         os.makedirs(os.path.dirname(R1_out), exist_ok=True)
         shutil.copy2(reads[0], R1_out)
-        os.makedirs(os.path.dirname(R2_out), exist_ok=True)
-        with open(R2_out, "wb") as f:
-            pass  # create empty file for R2
+        if len(reads) > 1:
+            os.makedirs(os.path.dirname(R2_out), exist_ok=True)
+            shutil.copy2(reads[1], R2_out)
+        else:
+            R2_out = None
         with open(json_out, "w") as f: f.write("{}")
         with open(html_out, "w") as f: f.write("<html><body>FASTA input — no fastp QC</body></html>")
     else:
@@ -68,10 +70,11 @@ def run_megahit(R1, R2, outdir):
         print(f"Assembly folder {outdir} exists — removing it")
         shutil.rmtree(outdir)
 
-    try:
+    # Only use -2 if R2 is a valid file
+    if not R2 or not os.path.exists(R2) or R2 == R1:
+        cmd = ["megahit", "-r", R1, "-o", outdir, "--min-contig-len", "1000"]
+    else:
         cmd = ["megahit", "-1", R1, "-2", R2, "-o", outdir, "--min-contig-len", "1000"]
-    except FileNotFoundError:
-        raise FileNotFoundError("{R1} or {R2} not found")
 
     subprocess.run(cmd, check=True)
     return os.path.join(outdir, "final.contigs.fa")

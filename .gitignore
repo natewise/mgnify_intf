@@ -2,3 +2,4 @@ downloads/*
 ref/*
 hmm/*
 .snakemake/*
+results/*

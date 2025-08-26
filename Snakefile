@@ -43,40 +43,61 @@ def sample_reads(analysis_dir):
 def outdir(analysis):
     return os.path.join(RESULTS, os.path.basename(analysis))
 
-rule fastp:
+############################################
+# Preprocess step (optional fastp)
+############################################
+
+rule preprocess_reads:
     input:
         lambda wildcards: sample_reads(os.path.join(STUDY_DIR, wildcards.analysis))
     output:
-        R1 = "{results}/{analysis}/qc/clean_R1.fasta.gz",
-        R2 = "{results}/{analysis}/qc/clean_R2.fasta.gz"
-    params:
-        json = "{results}/{analysis}/qc/fastp.json",
-        html = "{results}/{analysis}/qc/fastp.html"
-    threads: 4
-    shell:
-        r"""
-        mkdir -p {outdir} && \
-        if [ -n "{input[1]}" ] && [ "{input[1]}" != "None" ]; then
-            fastp -i {input[0]} -I {input[1]} -o {output.R1} -O {output.R2} \
-                  -w {threads} -j {params.json} -h {params.html}
-        else
-            fastp -i {input[0]} -o {output.R1} -w {threads} -j {params.json} -h {params.html}
-            # create dummy R2 for downstream rules
-            ln -sf $(basename {output.R1}) {output.R2} || true
-        fi
-        """.replace("{outdir}", r"{results}/{analysis}/qc")
+        R1="results/{analysis}/cleaned/clean_R1.fq.gz",
+        R2="results/{analysis}/cleaned/clean_R2.fq.gz",
+        json="results/{analysis}/cleaned/fastp.json",
+        html="results/{analysis}/cleaned/fastp.html"
+    run:
+        reads = input
+        fmt = detect_format(reads[0])
+
+        shell("mkdir -p {results}/{wildcards.analysis}/cleaned")
+
+        if fmt == "fastq":
+            if len(reads) > 1:
+                shell(f"""
+                    fastp -i {reads[0]} -I {reads[1]} \
+                          -o {output.R1} -O {output.R2} \
+                          -j {output.json} -h {output.html}
+                """)
+            else:
+                shell(f"""
+                    fastp -i {reads[0]} \
+                          -o {output.R1} \
+                          -j {output.json} -h {output.html}
+                    ln -sf $(basename {output.R1}) {output.R2} || true
+                """)
+        elif fmt == "fasta":
+            # Just symlink for consistency
+            shell(f"ln -sf {reads[0]} {output.R1}")
+            shell(f"ln -sf {reads[0]} {output.R2}")
+            # Dummy reports
+            shell(f"echo '{{}}' > {output.json}")
+            shell(f"echo '<html><body>FASTA input — no fastp QC</body></html>' > {output.html}")
+
+############################################
+# MEGAHIT assembly
+############################################
 
 rule megahit:
     input:
-        R1 = rules.fastp.output.R1,
-        R2 = rules.fastp.output.R2
+        R1 = rules.preprocess_reads.output.R1,
+        R2 = rules.preprocess_reads.output.R2
     output:
         contigs = "{results}/{analysis}/assembly/final.contigs.fa"
     threads: 8
     shell:
         r"""
         mkdir -p {outdir}
-        if [ -s {input.R2} ]; then
+        if [ -s {input.R2} ] && [ "{input.R2}" != "{input.R1}" ]; then
             megahit -1 {input.R1} -2 {input.R2} -o {outdir} -t {threads} --min-contig-len 1000
         else
             megahit -r {input.R1} -o {outdir} -t {threads} --min-contig-len 1000

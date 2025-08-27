@@ -3,7 +3,7 @@ import subprocess
 import shutil
 from scripts.mgnfy_interface import fetch_study_downloads
 
-STUDY_ACCESSION = "MGYS00001589"
+STUDY_ACCESSION = "MGYS00006491"
 STUDY_DIR = f"downloads/{STUDY_ACCESSION}"
 RESULTS = "results"
 HMMs = ["hmm/PF01022.hmm", "hmm/PF00376.hmm"]  # ArsR/SmtB, MerR
@@ -26,17 +26,25 @@ def detect_format(path):
     else:
         raise ValueError(f"Unknown file format: {path}")
 
-def fasta_sample_reads(analysis_dir):
-    files = sorted([os.path.join(analysis_dir,f) for f in os.listdir(analysis_dir) if f.endswith("MERGED_FASTQ.fasta.gz")])
+def get_fasta_files_from_dir(dir):
+    files = sorted([os.path.join(dir,f) for f in os.listdir(dir) if f.endswith(".fasta.gz") or f.endswith(".fasta")])
     if not files:
-        raise ValueError(f"No fasta.gz files found in {analysis_dir}")
+        raise ValueError(f"No fasta files found in {dir}")
+    return files
+
+def get_MGnfy_single_end_fasta_sample_reads(analysis_dir):
+    fasta_files = get_fasta_files_from_dir(analysis_dir)
+    # extract single file with 'MERGED_FASTQ.fasta.gz' ending
+    files = [f for f in fasta_files if f.endswith(".fasta.gz")]
+    if len(files) > 1 or len(files) == 0:
+        raise ValueError(f"Expecting only 1 file with 'MERGED_FASTQ.fasta.gz' ending in {analysis_dir}, found {len(files)}")
     return files
 
 ############################################
 # Pipeline steps
 ############################################
 
-def run_fastp(reads, outdir):
+def try_run_fastp(reads, outdir):
     os.makedirs(outdir, exist_ok=True)
     fmt = detect_format(reads[0])
     json_out = os.path.join(outdir, "fastp.json")
@@ -82,6 +90,7 @@ def run_megahit(R1, R2, outdir):
     else:
         cmd = ["megahit", "-1", R1, "-2", R2, "-o", outdir, "--min-contig-len", "1000"]
 
+    print("Running MEGAHIT: " + " ".join(cmd))
     subprocess.run(cmd, check=True)
     return os.path.join(outdir, "final.contigs.fa")
 
@@ -92,6 +101,7 @@ def run_prodigal(contigs, outdir):
     ffn = os.path.join(outdir, "genes.ffn")
     gff = os.path.join(outdir, "prodigal.gff")
     cmd = ["prodigal", "-i", contigs, "-a", faa, "-d", ffn, "-o", gff, "-p", "meta"]
+    print("Running prodigal: " + " ".join(cmd))
     subprocess.run(cmd, check=True)
     return faa
 
@@ -99,6 +109,7 @@ def run_hmmsearch(faa, hmm, outdir):
     os.makedirs(outdir, exist_ok=True)
     tbl = os.path.join(outdir, os.path.basename(hmm).replace(".hmm", ".tblout"))
     cmd = ["hmmsearch", "--cpu", "4", "--domE", "1e-5", "--tblout", tbl, hmm, faa]
+    print("Running hmmsearch: " + " ".join(cmd))
     subprocess.run(cmd, check=True)
     return tbl
 
@@ -119,7 +130,7 @@ def parse_hits(faa, tbls, outcsv):
 
 if __name__ == "__main__":
   # Download the study files if not already available
-  if not os.path.exists("downloads"):
+  if not os.path.exists(STUDY_DIR):
     fetch_study_downloads(STUDY_ACCESSION)
 
   # Start processing metagenomic pipeline
@@ -133,8 +144,15 @@ if __name__ == "__main__":
       hmm_dir = os.path.join(RESULTS, analysis, "hmm")
       report_dir = os.path.join(RESULTS, analysis, "report")
 
-      reads = fasta_sample_reads(analysis_dir)
-      R1, R2 = run_fastp(reads, cleaned_dir)
+      # Paired-end data is supported too, but MGnify appears to provide single-end merged reads
+      reads = get_MGnfy_single_end_fasta_sample_reads(analysis_dir)
+      print(f"Reads: {reads}")
+      if( len(reads) > 2 ):
+          raise ValueError(f"Getting {len(reads)} reads from {analysis_dir}, expecting single-end or paired-end reads.")
+
+      # NOTE: Can skip all these steps if input is already contigs or proteins
+      # Only needed for fastq input, will just copy fasta files
+      R1, R2 = try_run_fastp(reads, cleaned_dir)
       contigs = run_megahit(R1, R2, assembly_dir)
       faa = run_prodigal(contigs, genes_dir)
 

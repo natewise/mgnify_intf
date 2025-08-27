@@ -23,6 +23,7 @@ def fetch_study_downloads(study_accession):
     with APISession("https://www.ebi.ac.uk/metagenomics/api/v1") as mgnify:
         analyses = map(lambda r: r.json, mgnify.iterate(endpoint))
         analyses = pd.json_normalize(analyses)
+        print(f"Found {len(analyses)} analyses in study {study_accession}.")
         for analysisId in analyses.head(2)['attributes.accession']:
             # Create 'analysisId' directory if it doesn't exist
             downloads_dir = f"downloads/{study_accession}/{analysisId}"
@@ -82,9 +83,13 @@ def parse_fasta_file(filename):
     print(f"Parsed {len(sequences)} sequences from {filename}.")
 
 if __name__ == "__main__":
+    # NOTE: STUDY RETURNS AMPLICON DATA, NOT SHOTGUN DATA NEEDED FOR ASSEMBLY
     # Study focusing on microbial communities in heavy metal contaminated soils
     # https://www.ebi.ac.uk/metagenomics/studies/MGYS00001589#overview
-    fetch_study_downloads("MGYS00001589")
+    # fetch_study_downloads("MGYS00001589")
+
+    # https://www.ebi.ac.uk/metagenomics/studies/MGYS00006491#overview
+    fetch_study_downloads("MGYS00006491")
 
     # Parse all the files in the downloads directory using the parse_fasta_file function
     # downloads_dir = "downloads/MGYS00001589/MGYA00103632"

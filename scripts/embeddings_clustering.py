@@ -8,6 +8,12 @@ import umap
 import hdbscan
 from sklearn.cluster import KMeans, DBSCAN
 import matplotlib.pyplot as plt
+import os
+
+STUDY_DIR = f"{os.path.dirname(os.path.abspath(__file__))}/../results/MGYA00679207"
+# check if directory exists, otherwise throw error
+if not os.path.exists(STUDY_DIR):
+    raise ValueError(f"STUDY_DIR {STUDY_DIR} does not exist")
 
 # Step 1: Load protein sequences from .faa file
 def load_faa(filename): 
@@ -40,6 +46,7 @@ def generate_embeddings(sequences, batch_size=8, device='cpu'):
 
     with torch.no_grad():
         for i in range(0, len(sequences), batch_size):
+            print(f"Processing batch {i//batch_size + 1} / {(len(sequences) + batch_size - 1)//batch_size} {100 * (i//batch_size + 1) // ((len(sequences) + batch_size - 1)//batch_size)}%")
             batch = sequences[i:i+batch_size]
             encoded = tokenizer(batch, return_tensors="pt", padding=True, truncation=True, max_length=1024)
             input_ids = encoded['input_ids'].to(device)
@@ -76,37 +83,65 @@ def run_clustering(embeddings):
     return clusters
 
 # Step 5: Visualization
-def plot_clusters(reduced, cluster_labels, method_name):
+def plot_clusters(reduced, cluster_labels, method_name, output_dir='plots'):
+    os.makedirs(output_dir, exist_ok=True)
     plt.figure(figsize=(8,6))
     plt.scatter(reduced[:,0], reduced[:,1], c=cluster_labels, cmap='tab20', s=5)
     plt.title(f"Clusters ({method_name})")
     plt.xlabel('UMAP1')
     plt.ylabel('UMAP2')
-    plt.show()
+    plt.tight_layout()
+    output_file = os.path.join(output_dir, f'{method_name}_clusters.png')
+    plt.savefig(output_file, dpi=300)
+    plt.close()
+    print(f"Saved cluster plot to {output_file}")
 
 # Main driver
 def main():
     # faa_file = 'downloads/MGYS00006491/MGYA00679207/ERZ17499708_FASTA_predicted_cds.faa.gz'
-    faa_file = '../results/MGYA00679207/genes/proteins.faa'
+    faa_file = f"{STUDY_DIR}/genes/proteins.faa"
+    # check if file exists
+    if not os.path.exists(faa_file):
+        raise ValueError(f"FASTA file {faa_file} does not exist")
+
     print(f"Loading protein sequences from {faa_file}")
     headers, sequences = load_faa(faa_file)
+    sequences = sequences[:1000]  # Limit to first 1000 sequences for testing
 
     print(f"Loaded {len(sequences)} protein sequences")
 
-    print("Generating embeddings...")
-    embeddings = generate_embeddings(sequences)
-    print(f"Generated embeddings of shape: {embeddings.shape}")
+    # Check if STUDY_DIR/embeddings directory exists, if not create it
+    embeddings_dir = f"{STUDY_DIR}/embeddings"
+    if not os.path.exists(embeddings_dir):
+        os.makedirs(embeddings_dir)
+        print(f"Created directory {embeddings_dir}")
+    embeddings_file = f"{embeddings_dir}/protein_embeddings.npz"
+    if os.path.exists(embeddings_file):
+        print(f"Loading embeddings from {embeddings_file}")
+        embeddings = np.load(embeddings_file)['embeddings']
+    else:
+        print("Generating embeddings...")
+        embeddings = generate_embeddings(sequences)
+        np.savez_compressed(embeddings_file, embeddings=embeddings)
+        print(f"Saved embeddings to {embeddings_file}")
+
+    print(f"Embeddings shape: {embeddings.shape}")
 
     print("Reducing dimensions...")
     reduced = reduce_dimensions(embeddings)
     print("Reduced embeddings to 2D for visualization")
 
     print("Clustering embeddings...")
+    # Check if STUDY_DIR/clustering directory exists, if not create it
+    plots_dir = f"{STUDY_DIR}/plots"
+    if not os.path.exists(plots_dir):
+        os.makedirs(plots_dir)
+        print(f"Created directory {plots_dir}")
     cluster_results = run_clustering(reduced)
 
     for method, labels in cluster_results.items():
         print(f"Plotting clusters for {method}")
-        plot_clusters(reduced, labels, method)
+        plot_clusters(reduced, labels, method, plots_dir)
 
 if __name__ == '__main__':
     main()

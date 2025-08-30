@@ -10,6 +10,7 @@ from sklearn.cluster import KMeans, DBSCAN
 from sklearn.metrics import silhouette_score, davies_bouldin_score, calinski_harabasz_score
 from transformers import AutoTokenizer, AutoModel
 from typing import List, Tuple, Dict, Any
+import gzip
 
 def parse_args() -> argparse.Namespace:
     """Parse command-line arguments for the script."""
@@ -19,6 +20,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch_size", type=int, default=8, help="Batch size for embedding generation.")
     parser.add_argument("--n_sequences", type=int, default=None, help="Limit processing to the first N sequences (for testing).")
     parser.add_argument("--force_regenerate", action="store_true", help="Force regeneration of embeddings even if a cached file exists.")
+    parser.add_argument("--use_mgnify_faa", action="store_true", help="Use MGnify provided .faa file instead of predicting genes with Prodigal.")
     parser.add_argument("--k_means_clusters", type=int, default=10, help="Number of clusters for KMeans.")
     return parser.parse_args()
 
@@ -205,12 +207,19 @@ def main():
     embeddings_dir = os.path.join(args.study_dir, "embeddings")
     plots_dir = os.path.join(args.study_dir, "plots")
     report_dir = os.path.join(args.study_dir, "report")
+    genes_dir = os.path.join(args.study_dir, "genes")
+    
+    if args.use_mgnify_faa:
+        embeddings_dir = f"{embeddings_dir}/mgnify"
+        plots_dir = f"{plots_dir}/mgnify"
+        report_dir = f"{report_dir}/mgnify"
+        genes_dir = f"{genes_dir}/mgnify"
     os.makedirs(embeddings_dir, exist_ok=True)
     os.makedirs(plots_dir, exist_ok=True)
     os.makedirs(report_dir, exist_ok=True)
-    
+    os.makedirs(genes_dir, exist_ok=True)
+    faa_file = os.path.join(genes_dir, "proteins.faa")
     embeddings_file = os.path.join(embeddings_dir, f"protein_embeddings_{os.path.basename(args.model_name)}.npz")
-    faa_file = os.path.join(args.study_dir, "genes/proteins.faa")
 
     # --- 1. Load or Generate Embeddings ---
     if os.path.exists(embeddings_file) and not args.force_regenerate:
@@ -279,3 +288,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# clear; python3 embeddings_clustering.py --study_dir "../results/MGYA00679207" --n_sequences 2000 --use_mgnify_faa

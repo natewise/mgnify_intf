@@ -27,12 +27,6 @@ def parse_args() -> argparse.Namespace:
         required=True,
         help="The ID of the cluster to analyze (e.g., 77)."
     )
-    parser.add_argument(
-        "--output_file",
-        type=str,
-        default=None,
-        help="Path to save the output FASTA file. Defaults to 'cluster_[id]_representatives.faa'."
-    )
     return parser.parse_args()
 
 def load_fasta(filename: str) -> Dict[str, str]:
@@ -55,7 +49,8 @@ def load_fasta(filename: str) -> Dict[str, str]:
                 current_seq_header = line[1:].split(' ')[0]
                 current_seq = []
             else:
-                current_seq.append(line)
+                # Remove any spaces within the sequence line itself
+                current_seq.append(line.replace(" ", ""))
         if current_seq_header:
             sequences[current_seq_header] = "".join(current_seq)
             
@@ -70,25 +65,20 @@ def select_representatives(cluster_df: pd.DataFrame) -> List[str]:
     if cluster_df.empty:
         return []
 
-    # If the cluster is small, just return all members
     if len(cluster_df) <= 5:
         return cluster_df['header'].tolist()
         
-    # --- 1. Find the Centroid Protein ---
     centroid = cluster_df[['umap1', 'umap2']].mean().values
     distances = np.sqrt(
         (cluster_df['umap1'] - centroid[0])**2 + (cluster_df['umap2'] - centroid[1])**2
     )
     centroid_protein_header = cluster_df.loc[distances.idxmin()]['header']
 
-    # --- 2. Find the Edge Proteins ---
     top_protein_header = cluster_df.loc[cluster_df['umap2'].idxmax()]['header']
     bottom_protein_header = cluster_df.loc[cluster_df['umap2'].idxmin()]['header']
     left_protein_header = cluster_df.loc[cluster_df['umap1'].idxmin()]['header']
     right_protein_header = cluster_df.loc[cluster_df['umap1'].idxmax()]['header']
     
-    # --- 3. Combine and ensure uniqueness ---
-    # Using a dictionary automatically handles duplicates if one protein occupies multiple roles
     representative_headers = {
         'centroid': centroid_protein_header,
         'top': top_protein_header,
@@ -104,19 +94,14 @@ def main():
     """Main execution function."""
     args = parse_args()
 
-    # Set default output file name if not provided
-    if args.output_file:
-        output_file = args.output_file
-    else:
-        # By default, place the output file in the same directory as the input FASTA file
-        fasta_dir = os.path.dirname(args.fasta_file)
-        file_name = f"cluster_{args.cluster_id}_representatives.faa"
-        output_file = os.path.join(fasta_dir, file_name)
+    # Define output file paths based on the input FASTA file's location
+    fasta_dir = os.path.dirname(os.path.abspath(args.fasta_file))
+    faa_output_file = os.path.join(fasta_dir, f"cluster_{args.cluster_id}_representatives.faa")
+    txt_output_file = os.path.join(fasta_dir, f"cluster_{args.cluster_id}_colabfold_input.txt")
 
     print(f"Loading cluster results from: {args.cluster_results}")
     all_clusters_df = pd.read_csv(args.cluster_results)
     
-    # Clean the header column to ensure it matches the FASTA headers
     all_clusters_df['header'] = all_clusters_df['header'].str.split(' ').str[0]
 
     print(f"Filtering for cluster ID: {args.cluster_id}")
@@ -135,19 +120,52 @@ def main():
     print(f"Loading sequences from: {args.fasta_file}")
     all_sequences = load_fasta(args.fasta_file)
 
-    print(f"Writing representative sequences to: {output_file}")
-    with open(output_file, 'w') as f:
-        for i, header in enumerate(representative_headers):
-            sequence = all_sequences.get(header)
-            if sequence:
-                f.write(f">{header}\n")
-                # Write sequence in lines of 60 characters for standard FASTA format
-                for j in range(0, len(sequence), 60):
-                    f.write(sequence[j:j+60] + "\n")
-            else:
-                print(f"  Warning: Could not find sequence for header '{header}'")
+    # Prepare lists for both output formats
+    sanitized_representatives_for_faa = []
+    sequences_for_colabfold = []
+    for i, header in enumerate(representative_headers):
+        sequence = all_sequences.get(header)
+        if sequence:
+            sanitized_sequence = sequence.replace("*", "").replace("X", "").replace(" ", "")
+            simple_header = f"cluster_{args.cluster_id}_protein_{i+1}"
+            
+            sanitized_representatives_for_faa.append((simple_header, sanitized_sequence))
+            sequences_for_colabfold.append(sanitized_sequence)
+        else:
+            print(f"  Warning: Could not find sequence for header '{header}'")
     
-    print("Script finished successfully.")
+    # --- Write the standard .faa file ---
+    print(f"Writing standard FASTA file to: {faa_output_file}")
+    with open(faa_output_file, 'w') as f:
+        for simple_header, sanitized_sequence in sanitized_representatives_for_faa:
+            f.write(f">{simple_header}\n")
+            # Write sanitized sequence in lines of 60 characters
+            for j in range(0, len(sanitized_sequence), 60):
+                f.write(sanitized_sequence[j:j+60] + "\n")
+
+    # --- Write the .txt file for ColabFold ---
+    final_colabfold_string = ":".join(sequences_for_colabfold)
+    print(f"Writing colon-separated sequences to: {txt_output_file}")
+    with open(txt_output_file, 'w') as f:
+        f.write(final_colabfold_string)
+    
+    print("\n--- Instructions ---")
+    print(f"Two files have been created in '{fasta_dir}':")
+    print(f"1. {os.path.basename(faa_output_file)}: A standard FASTA file for your records.")
+    print(f"2. {os.path.basename(txt_output_file)}: A text file with sequences for ColabFold.")
+    print("\nTo run ColabFold:")
+    print(f"- Open '{os.path.basename(txt_output_file)}'.")
+    print("- Copy the ENTIRE single line of text.")
+    print("- Paste it into the 'query_sequence' box in the ColabFold notebook.")
+    print("--------------------")
+
+    print("\nScript finished successfully.")
 
 if __name__ == '__main__':
     main()
+
+# Example usage:
+# python3 filter_clusters.py --cluster_results "../results/MGYA00679207/report/mgnify/clustering_results.csv" --fasta_file "../results/MGYA00679207/genes/mgnify/proteins.faa" --cluster_id 77
+
+# Output is used as input for AlphaFold, which has a google colab notebook for running it for free:
+# https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb?authuser=1

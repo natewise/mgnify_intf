@@ -169,3 +169,11 @@ if __name__ == '__main__':
 
 # Output is used as input for AlphaFold, which has a google colab notebook for running it for free:
 # https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb?authuser=1
+
+# Output files from AlphaFold can be analyzed with FoldSeek and ChimeraX:
+# https://search.foldseek.com/search
+# https://www.cgl.ucsf.edu/chimerax/download.html
+# Once downloaded, load all the pdb files (File > Open) run a few commands:
+# rainbow
+# matchmaker #2,3,4,5 to #1 (adjust numbers depending on number of proteins)
+# hide; show cartoon

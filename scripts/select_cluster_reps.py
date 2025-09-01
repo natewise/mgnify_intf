@@ -177,3 +177,6 @@ if __name__ == '__main__':
 # rainbow
 # matchmaker #2,3,4,5 to #1 (adjust numbers depending on number of proteins)
 # hide; show cartoon
+####  If wanting to filter by higher pLDDT score:
+# select @@bfactor<=70
+# hide sel cartoons

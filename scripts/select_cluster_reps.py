@@ -165,7 +165,10 @@ if __name__ == '__main__':
     main()
 
 # Example usage:
-# python3 filter_clusters.py --cluster_results "../results/MGYA00679207/report/mgnify/clustering_results.csv" --fasta_file "../results/MGYA00679207/genes/mgnify/proteins.faa" --cluster_id 77
+# python3 select_cluster_reps.py \
+#    --cluster_results "../results/MGYA00679207/report/mgnify/clustering_results.csv" \
+#    --fasta_file "../results/MGYA00679207/genes/mgnify/proteins.faa" \
+#    --cluster_id 32
 
 # Output is used as input for AlphaFold, which has a google colab notebook for running it for free:
 # https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb?authuser=1

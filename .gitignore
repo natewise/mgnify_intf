@@ -3,4 +3,5 @@ ref/*
 hmm/*
 .snakemake/*
 results/*
+studies/*
 scripts/__pycache__/*

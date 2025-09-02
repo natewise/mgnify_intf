@@ -15,7 +15,7 @@ import gzip
 def parse_args() -> argparse.Namespace:
     """Parse command-line arguments for the script."""
     parser = argparse.ArgumentParser(description="Embed, reduce, and cluster protein sequences.")
-    parser.add_argument("--study_dir", type=str, required=True, help="Directory containing the study data (e.g., '../results/MGYA00679207').")
+    parser.add_argument("--study_dir", type=str, required=True, help="Directory containing the study data (e.g., '../studies/MGYS00006491/MGYA00679207').")
     parser.add_argument("--model_name", type=str, default="facebook/esm2_t6_8M_UR50D", help="Name of the Hugging Face ESM model to use.")
     parser.add_argument("--batch_size", type=int, default=8, help="Batch size for embedding generation.")
     parser.add_argument("--n_sequences", type=int, default=None, help="Limit processing to the first N sequences (for testing).")
@@ -85,7 +85,7 @@ def generate_embeddings(sequences: List[str], model_name: str, batch_size: int, 
             
     return np.vstack(all_embeddings)
 
-def reduce_dimensions(embeddings: np.ndarray, n_components: int = 2, n_neighbors: int = 15, min_dist: float = 0.1) -> np.ndarray:
+def reduce_dimensions(embeddings: np.ndarray, n_components: int = 2, n_neighbors: int = 5, min_dist: float = 0.1) -> np.ndarray:
     """
     Reduces the dimensionality of embeddings using UMAP.
 
@@ -201,9 +201,12 @@ def main():
     args = parse_args()
 
     if not os.path.isdir(args.study_dir):
-        raise FileNotFoundError(f"Study directory not found: {args.study_dir}")
+        raise FileNotFoundError(f"Study directory not found (required for study downloads): {args.study_dir}")
 
     # --- Setup Directories and Paths ---
+    downloads_dir = os.path.join(args.study_dir, "downloads")
+    if not os.path.isdir(downloads_dir):
+        raise FileNotFoundError(f"Study downloads directory not found (required for study files): {downloads_dir}")
     embeddings_dir = os.path.join(args.study_dir, "embeddings")
     plots_dir = os.path.join(args.study_dir, "plots")
     report_dir = os.path.join(args.study_dir, "report")
@@ -214,11 +217,14 @@ def main():
         plots_dir = f"{plots_dir}/mgnify"
         report_dir = f"{report_dir}/mgnify"
         genes_dir = f"{genes_dir}/mgnify"
+        faa_file = os.path.join(downloads_dir, "predicted_cds.faa")
+    else:
+        faa_file = os.path.join(genes_dir, "predicted_cds.faa")
+
     os.makedirs(embeddings_dir, exist_ok=True)
     os.makedirs(plots_dir, exist_ok=True)
     os.makedirs(report_dir, exist_ok=True)
     os.makedirs(genes_dir, exist_ok=True)
-    faa_file = os.path.join(genes_dir, "proteins.faa")
     embeddings_file = os.path.join(embeddings_dir, f"protein_embeddings_{os.path.basename(args.model_name)}.npz")
 
     # --- 1. Load or Generate Embeddings ---
@@ -289,4 +295,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-# clear; python3 embeddings_clustering.py --study_dir "../results/MGYA00679207" --n_sequences 2000 --use_mgnify_faa
+# For this data, max n_sequences = 
+# clear; python3 embeddings_clustering.py --study_dir "../studies/MGYS00006491/MGYA00679207" --n_sequences 2000 --use_mgnify_faa

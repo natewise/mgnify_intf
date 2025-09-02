@@ -135,3 +135,4 @@ def main():
 if __name__ == '__main__':
     main()
 
+# clear; python3 functional_analysis_summary.py --cluster_results "../studies/MGYS00006491/MGYA00679207/report/mgnify/clustering_results.csv" --interpro_annotations "../studies/MGYS00006491/MGYA00679207/downloads/interPro.tsv"

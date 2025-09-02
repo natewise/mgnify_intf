@@ -1,0 +1,5 @@
+all:
+	python3 embeddings_clustering.py --study_dir "../studies/MGYS00006491/MGYA00679207" --n_sequences 2000 --use_mgnify_faa
+	python3 functional_analysis_summary.py --cluster_results "../studies/MGYS00006491/MGYA00679207/report/mgnify/clustering_results.csv" --interpro_annotations "../studies/MGYS00006491/MGYA00679207/downloads/interPro.tsv"
+	python3 deep_dive_cluster.py --cluster_results "../studies/MGYS00006491/MGYA00679207/report/mgnify/clustering_results.csv" --interpro_annotations "../studies/MGYS00006491/MGYA00679207/downloads/interPro.tsv" --cluster_id 25
+	python3 find_biosensor_candidates.py --analyte "uranium" --cluster_results "../studies/MGYS00006491/MGYA00679207/report/mgnify/clustering_results.csv" --interpro_annotations "../studies/MGYS00006491/MGYA00679207/downloads/interPro.tsv"

@@ -111,8 +111,5 @@ if __name__ == '__main__':
     main()
 
 # Usage
-# python deep_dive_cluster.py \
-#     --cluster_results "../results/MGYA00679207/report/mgnify/clustering_results.csv" \
-#     --interpro_annotations "../results/MGYA00679207/genes/mgnify/interPro.tsv" \
-#     --cluster_id 31
+# clear; python3 deep_dive_cluster.py --cluster_results "../studies/MGYS00006491/MGYA00679207/report/mgnify/clustering_results.csv" --interpro_annotations "../studies/MGYS00006491/MGYA00679207/downloads/interPro.tsv" --cluster_id 25
 # This will create a new file named `cluster_31_deep_dive.txt`. This file will list every one of the 30 proteins in the cluster and clearly show which ones are our known `ArsR` regulators and which ones are our unannotated, high-priority novel candidates.

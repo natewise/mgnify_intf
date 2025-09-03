@@ -1,0 +1,4553 @@
+Functional Analysis of HDBSCAN Protein Clusters
+==================================================
+
+--- Cluster 0 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Mitochondrial carrier protein signature    12
+Mitochondrial carrier protein              11
+
+-------------------------
+
+--- Cluster 1 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Phytanoyl-CoA dioxygenase (PhyH)             2
+Putative 2OG-Fe(II) oxygenase                2
+Cupin domain                                 1
+Aspartyl/Asparaginyl beta-hydroxylase        1
+NUDIX domain                                 1
+TIGR02466: conserved hypothetical protein    1
+
+-------------------------
+
+--- Cluster 2 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Ribosomal protein S1 signature    35
+S1 RNA binding domain             21
+rpsA: ribosomal protein bS1        1
+
+-------------------------
+
+--- Cluster 5 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Acetyltransferase (GNAT) family    3
+Acetyltransferase (GNAT) domain    2
+
+-------------------------
+
+--- Cluster 6 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+IV_pilin_GFxxxE: prepilin-type N-terminal cleavage/methylation domain    6
+Bacterial general secretion pathway protein G signature                  6
+Prokaryotic N-terminal methylation motif                                 6
+Protein of unknown function (DUF1559)                                    1
+typeII_sec_gspG: type II secretion system protein G                      1
+Type II secretion system (T2SS), protein G                               1
+Prokaryotic N-terminal methylation site.                                 1
+
+-------------------------
+
+--- Cluster 7 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+Virulence factor MviN signature                                  11
+Phage integrase family                                            8
+Lipid II flippase MurJ                                            3
+Arm DNA-binding domain                                            1
+murJ_mviN: murein biosynthesis integral membrane protein MurJ     1
+Polysaccharide biosynthesis C-terminal domain                     1
+Phage integrase SAM-like domain                                   1
+Phage integrase, N-terminal SAM-like domain                       1
+
+-------------------------
+
+--- Cluster 8 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Sulfatase                               13
+Sulfatases signature 2.                  4
+Domain of unknown function (DUF4976)     2
+Sulfatases signature 1.                  2
+Domain of unknown function               1
+
+-------------------------
+
+--- Cluster 9 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Enoyl-CoA hydratase/isomerase               7
+Enoyl-CoA hydratase/isomerase signature.    2
+Acyl transferase domain                     1
+
+-------------------------
+
+--- Cluster 10 (Total Proteins: 26) ---
+Top 10 most frequent functions:
+signature_description
+Glucose/ribitol dehydrogenase family signature                     63
+Short-chain dehydrogenase/reductase (SDR) superfamily signature    25
+Enoyl-(Acyl carrier protein) reductase                              9
+Short-chain dehydrogenases/reductases family signature.             7
+NAD dependent epimerase/dehydratase family                          7
+short chain dehydrogenase                                           6
+GDP-mannose 4,6 dehydratase                                         3
+gmd: GDP-mannose 4,6-dehydratase                                    1
+galE: UDP-glucose 4-epimerase GalE                                  1
+RmlD substrate binding domain                                       1
+
+-------------------------
+
+--- Cluster 11 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+Putative 2OG-Fe(II) oxygenase                3
+Phytanoyl-CoA dioxygenase (PhyH)             2
+TIGR02466: conserved hypothetical protein    1
+2OG-Fe(II) oxygenase superfamily             1
+
+-------------------------
+
+--- Cluster 12 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+TIGR02466: conserved hypothetical protein    5
+Putative 2OG-Fe(II) oxygenase                5
+2OG-Fe(II) oxygenase superfamily             1
+
+-------------------------
+
+--- Cluster 13 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Leu/Ile/Val-binding protein family signature                        7
+Apyrase family signature                                            6
+Maltose binding protein signature                                   5
+Bacterial extracellular solute-binding protein                      4
+Bacterial extracellular solute-binding protein, family 7            4
+Periplasmic binding protein                                         3
+Bacterial extracellular solute-binding proteins, family 5 Middle    2
+Thioredoxin                                                         1
+Periplasmic binding protein domain                                  1
+urea_ABC_UrtA: urea ABC transporter, urea binding protein           1
+
+-------------------------
+
+--- Cluster 14 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Alkaline phosphatase signature                                               5
+Protein of unknown function (DUF1501)                                        4
+BPG-independent PGAM N-terminus (iPGM_N)                                     2
+pgm_bpd_ind: phosphoglycerate mutase (2,3-diphosphoglycerate-independent)    2
+Metalloenzyme superfamily                                                    2
+Alkaline phosphatase                                                         1
+
+-------------------------
+
+--- Cluster 15 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily    3
+Glyoxalase-like domain                                             1
+
+-------------------------
+
+--- Cluster 16 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+Major Facilitator Superfamily    11
+
+-------------------------
+
+--- Cluster 17 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+2OG-Fe(II) oxygenase superfamily    2
+Putative 2OG-Fe(II) oxygenase       2
+
+-------------------------
+
+--- Cluster 18 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+2OG-Fe(II) oxygenase superfamily                    4
+Putative 2OG-Fe(II) oxygenase                       4
+Phytanoyl-CoA dioxygenase (PhyH)                    2
+TIGR02466: conserved hypothetical protein           2
+Taurine catabolism dioxygenase TauD, TfdA family    1
+Cupin superfamily protein                           1
+Cupin-like domain                                   1
+
+-------------------------
+
+--- Cluster 19 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+GDP-mannose 4,6 dehydratase                             5
+NAD dependent epimerase/dehydratase family              4
+3-beta hydroxysteroid dehydrogenase/isomerase family    1
+
+-------------------------
+
+--- Cluster 20 (Total Proteins: 20) ---
+Top 10 most frequent functions:
+signature_description
+Glucose/ribitol dehydrogenase family signature                     79
+Short-chain dehydrogenase/reductase (SDR) superfamily signature    21
+short chain dehydrogenase                                          10
+Enoyl-(Acyl carrier protein) reductase                             10
+Short-chain dehydrogenases/reductases family signature.             6
+
+-------------------------
+
+--- Cluster 21 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+short chain dehydrogenase                         3
+Glucose/ribitol dehydrogenase family signature    2
+GDP-mannose 4,6 dehydratase                       2
+Enoyl-(Acyl carrier protein) reductase            1
+
+-------------------------
+
+--- Cluster 22 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+DNA gyrase inhibitor YacG    2
+
+-------------------------
+
+--- Cluster 23 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Cytochrome c-type biogenesis protein CcmB signature                4
+Branched-chain amino acid transport system / permease component    3
+ABC-2 type transport system membrane protein signature             3
+ABC-2 type transporter                                             1
+ABC 3 transport family                                             1
+Iron dependent repressor, metal binding and dimerisation domain    1
+CcmB protein                                                       1
+
+-------------------------
+
+--- Cluster 24 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+WD domain, G-beta repeat                 13
+G protein beta WD-40 repeat signature     9
+Trp-Asp (WD) repeats signature.           4
+
+-------------------------
+
+--- Cluster 25 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Regulator of chromosome condensation (RCC1) repeat          6
+Chromosome condensation regulator RCC1 signature            5
+Leucine Rich repeat                                         3
+BspA type Leucine rich repeat region (6 copies)             2
+Putative ephrin-receptor like                               2
+Galactose oxidase, central domain                           2
+Regulator of chromosome condensation (RCC1) signature 2.    1
+CUB domain                                                  1
+Fibronectin type III domain                                 1
+Concanavalin A-like lectin/glucanases superfamily           1
+
+-------------------------
+
+--- Cluster 26 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Binding-protein-dependent transport system inner membrane component                                   7
+HEQRo_perm_3TM: amino ABC transporter, permease protein, 3-TM region, His/Glu/Gln/Arg/opine family    1
+
+-------------------------
+
+--- Cluster 27 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Binding-protein-dependent transport system inner membrane component                                   15
+ABC-2 type transport system membrane protein signature                                                 5
+ABC-2 type transporter                                                                                 1
+FtsX-like permease family                                                                              1
+N-terminal TM domain of oligopeptide transport permease C                                              1
+HEQRo_perm_3TM: amino ABC transporter, permease protein, 3-TM region, His/Glu/Gln/Arg/opine family     1
+
+-------------------------
+
+--- Cluster 28 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Dolichyl-phosphate-mannose-protein mannosyltransferase    1
+Predicted membrane protein (DUF2079)                      1
+
+-------------------------
+
+--- Cluster 29 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+OMPA domain signature                                         3
+Carbohydrate-selective porin, OprB family                     2
+OmpA family                                                   1
+Outer membrane protein transport protein (OMPP1/FadL/TodX)    1
+Putative beta-barrel porin 2                                  1
+Lipid A 3-O-deacylase (PagL)                                  1
+Bacterial protein of unknown function (Gcw_chp)               1
+gcw_chp: conserved hypothetical protein                       1
+
+-------------------------
+
+--- Cluster 30 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+TonB dependent receptor                          6
+TonB-dependent receptor proteins signature 2.    1
+Surface antigen                                  1
+
+-------------------------
+
+--- Cluster 31 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+TonB-dependent Receptor Plug Domain                       6
+TonB dependent receptor                                   4
+Protein of unknown function (DUF3570)                     3
+Haemolysin secretion/activation protein ShlB/FhaC/HecB    1
+POTRA domain, ShlB-type                                   1
+Copper resistance protein B precursor (CopB)              1
+LPS transport system D                                    1
+Phosphate-selective porin O and P                         1
+Surface antigen                                           1
+
+-------------------------
+
+--- Cluster 32 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Tetratricopeptide repeat    10
+Sel1 repeat                  3
+
+-------------------------
+
+--- Cluster 33 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+LVIVD repeat                                          2
+Retinal pigment epithelial membrane protein           1
+choice_anch_B: choice-of-anchor B domain              1
+Glutamine cyclotransferase                            1
+PQQ-like domain                                       1
+Vacuolar-sorting-associated 13 protein C-terminal     1
+NHL repeat                                            1
+WD40-like Beta Propeller Repeat                       1
+Bacterial quinoprotein dehydrogenases signature 2.    1
+
+-------------------------
+
+--- Cluster 34 (Total Proteins: 19) ---
+Top 10 most frequent functions:
+signature_description
+Major Facilitator Superfamily                                      5
+Uncharacterised MFS-type transporter YbfB                          1
+Sugar (and other) transporter                                      1
+MFS/sugar transport protein                                        1
+Transmembrane secretion effector                                   1
+Nodulin-like                                                       1
+AcrB/AcrD/AcrF family                                              1
+Vacuole effluxer Atg22 like                                        1
+Branched-chain amino acid transport system / permease component    1
+
+-------------------------
+
+--- Cluster 35 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Zinc-binding dehydrogenase                           4
+Alcohol dehydrogenase GroES-like domain              4
+Zinc-containing alcohol dehydrogenases signature.    2
+CoA-transferase family III                           1
+
+-------------------------
+
+--- Cluster 36 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Protein of unknown function (DUF423)                           1
+Sap, sulfolipid-1-addressing protein                           1
+Respiratory-chain NADH dehydrogenase subunit 1 signature 1.    1
+NADH dehydrogenase                                             1
+Domain of unknown function (DUF389)                            1
+Proton-conducting membrane transporter                         1
+Cytochrome C biogenesis protein transmembrane region           1
+
+-------------------------
+
+--- Cluster 37 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+AMP-binding enzyme                                        17
+Putative AMP-binding domain signature.                    11
+AMP-binding enzyme C-terminal domain                       7
+Acetyl-coenzyme A synthetase N-terminus                    2
+Type I restriction modification DNA specificity domain     2
+AMP-binding signature                                      2
+Ac_CoA_lig_AcsA: acetate--CoA ligase                       1
+
+-------------------------
+
+--- Cluster 38 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Subtilisin serine protease family (S8) signature              14
+Subtilase family                                               6
+Serine proteases, subtilase family, serine active site.        5
+Serine proteases, subtilase family, histidine active site.     4
+B_ant_repeat: conserved repeat domain                          1
+PA domain                                                      1
+Peptidase inhibitor I9                                         1
+
+-------------------------
+
+--- Cluster 39 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Sulfite exporter TauE/SafE                                            4
+EamA-like transporter family                                          1
+Tripartite ATP-independent periplasmic transporter, DctM component    1
+
+-------------------------
+
+--- Cluster 40 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+EamA-like transporter family          14
+Small Multidrug Resistance protein     1
+
+-------------------------
+
+--- Cluster 41 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Plant photosystem I psaA and psaB protein signature     4
+Cytochrome c oxidase subunit II signature               3
+Cytochrome b/b6/petB                                    2
+Photosystem I psaA/psaB protein                         1
+Polysulphide reductase, NrfD                            1
+Polysaccharide biosynthesis C-terminal domain           1
+NADH-ubiquinone/plastoquinone oxidoreductase chain 6    1
+Protein of unknown function (DUF805)                    1
+Cytochrome b(N-terminal)/b6/petB                        1
+Cytochrome b(C-terminal)/b6/petD                        1
+
+-------------------------
+
+--- Cluster 42 (Total Proteins: 20) ---
+Top 10 most frequent functions:
+signature_description
+Chlorophyll A-B binding protein                  1
+Putative zincin peptidase                        1
+Proton-conducting membrane transporter           1
+Type IV secretory pathway, VirB3-like protein    1
+Ammonium Transporter Family                      1
+3-oxo-5-alpha-steroid 4-dehydrogenase            1
+
+-------------------------
+
+--- Cluster 43 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+Prokaryotic N-terminal methylation motif                                 1
+IV_pilin_GFxxxE: prepilin-type N-terminal cleavage/methylation domain    1
+Prokaryotic N-terminal methylation site.                                 1
+
+-------------------------
+
+--- Cluster 44 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+Ribonuclease III domain                                          1
+Domain of unknown function (DUF4535)                             1
+3-Deoxy-D-manno-octulosonic-acid transferase (kdotransferase)    1
+
+-------------------------
+
+--- Cluster 45 (Total Proteins: 31) ---
+Top 10 most frequent functions:
+signature_description
+Pyridine nucleotide disulphide reductase class-II signature          8
+short chain dehydrogenase                                            4
+FAD-dependent glycerol-3-phosphate dehydrogenase family signature    4
+FAD dependent oxidoreductase                                         3
+Pyridine nucleotide-disulphide oxidoreductase                        3
+Pyridine nucleotide disulphide reductase class-I signature           2
+L-lactate dehydrogenase signature                                    2
+Methyltransferase domain                                             2
+Adrenodoxin reductase family signature                               2
+lactate/malate dehydrogenase, NAD binding domain                     1
+
+-------------------------
+
+--- Cluster 48 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Transmembrane amino acid transporter protein    1
+Der1-like family                                1
+Chromate transporter                            1
+Glycosyl transferase family 4                   1
+
+-------------------------
+
+--- Cluster 49 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+EamA-like transporter family                           1
+SCAMP family                                           1
+Sugar efflux transporter for intercellular exchange    1
+SbmA/BacA-like family                                  1
+Fatty acid hydroxylase superfamily                     1
+Inorganic H+ pyrophosphatase                           1
+Ceramidase                                             1
+Rhodopsin-like GPCR transmembrane domain               1
+Vitamin B6 photo-protection and homoeostasis           1
+
+-------------------------
+
+--- Cluster 50 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial photosynthetic reaction centre signature    3
+Photosynthetic reaction centre protein                1
+Photosynthetic reaction center proteins signature.    1
+MFS_1 like family                                     1
+Sodium:solute symporter family signature 2.           1
+Sodium:solute symporter family                        1
+Prokaryotic cytochrome b561                           1
+
+-------------------------
+
+--- Cluster 51 (Total Proteins: 56) ---
+Top 10 most frequent functions:
+signature_description
+Protein of unknown function (DUF2839)                                  2
+Tripartite ATP-independent periplasmic transporters, DctQ component    1
+NADH-ubiquinone/plastoquinone oxidoreductase chain 4L                  1
+Small Multidrug Resistance protein                                     1
+Protein of unknown function (DUF2892)                                  1
+arch_flag_Nterm: archaeal flagellin N-terminal-like domain             1
+Archaeal Type IV pilin, N-terminal                                     1
+YGGT family                                                            1
+Binding-protein-dependent transport system inner membrane component    1
+
+-------------------------
+
+--- Cluster 52 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+NADH-ubiquinone oxidoreductase subunit 4 signature                    6
+Proton-conducting membrane transporter                                4
+NADH-ubiquinone oxidoreductase chain 5 signature                      3
+Membrane transport protein                                            2
+Tripartite ATP-independent periplasmic transporter, DctM component    1
+Transition state regulatory protein AbrB                              1
+Gneg_AbrB_dup: membrane protein AbrB duplication                      1
+NDH_I_M: proton-translocating NADH-quinone oxidoreductase, chain M    1
+Sodium Bile acid symporter family                                     1
+
+-------------------------
+
+--- Cluster 53 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+2Fe-2S iron-sulfur cluster binding domain                                   6
+4Fe-4S ferredoxin-type iron-sulfur binding region signature.                5
+4Fe-4S dicluster domain                                                     5
+2Fe-2S ferredoxin-type iron-sulfur binding region signature.                3
+dhsB: succinate dehydrogenase and fumarate reductase iron-sulfur protein    3
+Molybdopterin oxidoreductase Fe4S4 domain                                   2
+4Fe-4S binding domain                                                       2
+NADH-ubiquinone oxidoreductase-G iron-sulfur binding region                 2
+Iron only hydrogenase large subunit, C-terminal domain                      1
+Respiratory-chain NADH dehydrogenase 75 Kd subunit signature 3.             1
+
+-------------------------
+
+--- Cluster 54 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Photosystem II 10 kDa phosphoprotein                          1
+SecE/Sec61-gamma subunits of protein translocation complex    1
+secE_bact: preprotein translocase, SecE subunit               1
+
+-------------------------
+
+--- Cluster 55 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial opsin signature                                4
+Sodium/chloride neurotransmitter symporter signature     2
+Sodium:neurotransmitter symporter family signature 1.    1
+Sodium:neurotransmitter symporter family                 1
+Polysaccharide biosynthesis protein                      1
+Bacteriorhodopsin-like protein                           1
+Bacterial rhodopsins signature 1.                        1
+Rhomboid family                                          1
+Peptidase M50B-like                                      1
+Cyclin M transmembrane N-terminal domain                 1
+
+-------------------------
+
+--- Cluster 56 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Tetracycline resistance protein signature                 5
+Sodium:solute symporter family                            1
+Polysaccharide biosynthesis protein                       1
+UbiA prenyltransferase family                             1
+O-Antigen ligase                                          1
+Dolichyl-phosphate-mannose-protein mannosyltransferase    1
+Major Facilitator Superfamily                             1
+MFS_1 like family                                         1
+
+-------------------------
+
+--- Cluster 57 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Potassium channel signature                                                                         4
+Ion transport protein                                                                               2
+Succinate dehydrogenase/Fumarate reductase transmembrane subunit                                    1
+sdhC_b558_fam: succinate dehydrogenase (or fumarate reductase) cytochrome b subunit, b558 family    1
+Cation transport protein                                                                            1
+MotA/TolQ/ExbB proton channel family                                                                1
+
+-------------------------
+
+--- Cluster 58 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+SecE/Sec61-gamma subunits of protein translocation complex    1
+secE_bact: preprotein translocase, SecE subunit               1
+
+-------------------------
+
+--- Cluster 59 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+EGF-like domain signature 1.                          5
+Type III EGF-like signature                           3
+EGF-like domain                                       2
+EGF-like domain signature 2.                          2
+ShK domain-like                                       2
+Laminin EGF domain                                    2
+Chymotrypsin serine protease family (S1) signature    2
+Integrin alpha subunit signature                      2
+Putative ephrin-receptor like                         1
+von Willebrand factor type A domain                   1
+
+-------------------------
+
+--- Cluster 60 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+Cytochrome b(C-terminal)/b6/petD             1
+Cytochrome b(N-terminal)/b6/petB             1
+Sodium/calcium exchanger protein             1
+Prolipoprotein diacylglyceryl transferase    1
+Colicin V production protein                 1
+TspO/MBR family                              1
+PQ loop repeat                               1
+
+-------------------------
+
+--- Cluster 61 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+PQ loop repeat                               2
+Carboxymuconolactone decarboxylase family    1
+NADH dehydrogenase                           1
+3-oxo-5-alpha-steroid 4-dehydrogenase        1
+Ycf66 protein N-terminus                     1
+Domain of unknown function (DUF4190)         1
+GYF domain 2                                 1
+
+-------------------------
+
+--- Cluster 62 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Preprotein translocase SecY subunit signature       3
+Protein of unknown function (DUF502)                1
+NQR2, RnfD, RnfE family                             1
+SecY translocase                                    1
+Virulence factor BrkB                               1
+yihY_not_rbn: YihY family inner membrane protein    1
+Fatty acid desaturase                               1
+Phospholipase_D-nuclease N-terminal                 1
+ABC transporter transmembrane region                1
+Yip1 domain                                         1
+
+-------------------------
+
+--- Cluster 63 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+ATP synthase A subunit signature                                        4
+Rhomboid family                                                         2
+Succinate dehydrogenase/Fumarate reductase transmembrane subunit        2
+Nicotinamide mononucleotide transporter                                 1
+nqrD: NADH:ubiquinone oxidoreductase, Na(+)-translocating, D subunit    1
+Branched-chain amino acid transport system / permease component         1
+NMN_trans_PnuC: nicotinamide mononucleotide transporter PnuC            1
+Rnf-Nqr subunit, membrane protein                                       1
+ATP synthase a subunit signature.                                       1
+ATP_synt_6_or_A: ATP synthase F0, A subunit                             1
+
+-------------------------
+
+--- Cluster 64 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+4TM region of pyridine nucleotide transhydrogenase, mitoch       3
+YidC translocation/secretion protein signature                   2
+Sodium/chloride neurotransmitter symporter signature             2
+60kDa inner membrane protein signature                           2
+FxsA cytoplasmic membrane protein                                1
+60Kd inner membrane protein                                      1
+Protein of unknown function (DUF1232)                            1
+SecY translocase                                                 1
+yidC_oxa1_cterm: membrane protein insertase, YidC/Oxa1 family    1
+Sodium:neurotransmitter symporter family                         1
+
+-------------------------
+
+--- Cluster 65 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Beta-carotene 15,15'-dioxygenase         1
+Protein of unknown function (DUF2878)    1
+
+-------------------------
+
+--- Cluster 66 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+N-terminal TM domain of oligopeptide transport permease C    1
+Cytochrome b/b6/petB                                         1
+Chromate transporter                                         1
+ZIP Zinc transporter                                         1
+
+-------------------------
+
+--- Cluster 67 (Total Proteins: 46) ---
+Top 10 most frequent functions:
+signature_description
+DoxX                                                                   3
+Lipoprotein signal peptidase family (A8) signature                     2
+Predicted membrane protein (DUF2061)                                   2
+4TM region of pyridine nucleotide transhydrogenase, mitoch             1
+Signal peptidase (SPase) II                                            1
+Tripartite ATP-independent periplasmic transporters, DctQ component    1
+Protein of unknown function (DUF1304)                                  1
+BCCT, betaine/carnitine/choline family transporter                     1
+Domain of unknown function (DUF4396)                                   1
+NADH-ubiquinone/plastoquinone oxidoreductase, chain 3                  1
+
+-------------------------
+
+--- Cluster 68 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Inorganic H+ pyrophosphatase           2
+Sodium/calcium exchanger protein       1
+Plasma-membrane choline transporter    1
+EF-hand calcium-binding domain.        1
+
+-------------------------
+
+--- Cluster 69 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+FAD-dependent pyridine nucleotide reductase signature               11
+Pyridine nucleotide disulphide reductase class-I signature          11
+Pyridine nucleotide disulphide reductase class-II signature          4
+FAD dependent oxidoreductase                                         3
+Pyridine nucleotide-disulphide oxidoreductase                        3
+Enoyl-CoA hydratase/isomerase                                        1
+Enoyl-CoA hydratase/isomerase signature.                             1
+CoA-transferase family III                                           1
+NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase     1
+NAD binding domain of 6-phosphogluconate dehydrogenase               1
+
+-------------------------
+
+--- Cluster 70 (Total Proteins: 28) ---
+Top 10 most frequent functions:
+signature_description
+ATP synthase A subunit signature                          4
+DnaJ domain signature                                     3
+RyR domain                                                2
+Ankyrin repeat signature                                  2
+DnaJ domain                                               1
+ATP_synt_6_or_A: ATP synthase F0, A subunit               1
+ATP synthase A chain                                      1
+EF-hand calcium-binding domain.                           1
+Ion channel regulatory protein UNC-93                     1
+Ammonia monooxygenase/methane monooxygenase, subunit C    1
+
+-------------------------
+
+--- Cluster 71 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Cytochrome c-type biogenesis protein signature                    8
+Cytochrome c-type biogenesis protein CcmF signature               4
+NADH-ubiquinone oxidoreductase chain 5 signature                  3
+NADH-plastoquinone oxidoreductase chain 5 signature               2
+NAD(P) transhydrogenase beta subunit                              1
+Urate oxidase N-terminal                                          1
+Proton-conducting membrane transporter                            1
+NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus    1
+Cytochrome C assembly protein                                     1
+Cytochrome c-type biogenesis protein CcmF C-terminal              1
+
+-------------------------
+
+--- Cluster 72 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Enoyl-CoA hydratase/isomerase               6
+Enoyl-CoA hydratase/isomerase signature.    3
+Acyl transferase domain                     1
+
+-------------------------
+
+--- Cluster 73 (Total Proteins: 19) ---
+Top 10 most frequent functions:
+signature_description
+ABC transporter                                                         13
+AAA domain                                                               2
+DEAD/DEAH box helicase                                                   1
+Kinesin motor domain                                                     1
+Rad17 P-loop domain                                                      1
+T6A_YjeE: tRNA threonylcarbamoyl adenosine modification protein YjeE     1
+Threonylcarbamoyl adenosine biosynthesis protein TsaE                    1
+
+-------------------------
+
+--- Cluster 74 (Total Proteins: 32) ---
+Top 10 most frequent functions:
+signature_description
+Type III secretion system inner membrane P protein family signature    6
+Flagellar biosynthetic protein FliP signature                          6
+Inorganic H+ pyrophosphatase                                           3
+NQR2, RnfD, RnfE family                                                2
+Permease for cytosine/purines, uracil, thiamine, allantoin             1
+Flagella transport protein fliP family signature 1.                    1
+Flagella transport protein fliP family signature 2.                    1
+FliP family                                                            1
+fliP: flagellar biosynthetic protein FliP                              1
+SNARE associated Golgi protein                                         1
+
+-------------------------
+
+--- Cluster 75 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial Sec-independent translocation TatC protein family signature    3
+NADH-ubiquinone oxidoreductase subunit 4 signature                       3
+Sodium:solute symporter family                                           2
+Proton-conducting membrane transporter                                   2
+Lysylphosphatidylglycerol synthase TM region                             1
+TatC family signature.                                                   1
+Sec-independent protein translocase protein (TatC)                       1
+tatC: twin arginine-targeting protein translocase TatC                   1
+Sodium:solute symporter family signature 1.                              1
+Cytochrome C biogenesis protein transmembrane region                     1
+
+-------------------------
+
+--- Cluster 77 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Pregnancy-associated plasma protein-A    1
+
+-------------------------
+
+--- Cluster 80 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Concanavalin A-like lectin/glucanases superfamily    3
+Mycoplasma protein of unknown function, DUF285       2
+
+-------------------------
+
+--- Cluster 81 (Total Proteins: 16) ---
+Top 10 most frequent functions:
+signature_description
+FG-GAP repeat                                                        9
+Integrin alpha subunit signature                                     9
+EF-hand calcium-binding domain.                                      4
+Putative metal-binding motif                                         4
+Fibronectin type III repeat signature                                4
+Collagen triple helix repeat (20 copies)                             3
+Repeat domain in Vibrio, Colwellia, Bradyrhizobium and Shewanella    2
+Dockerin type I domain                                               1
+Concanavalin A-like lectin/glucanases superfamily                    1
+Fibronectin type III domain                                          1
+
+-------------------------
+
+--- Cluster 82 (Total Proteins: 16) ---
+Top 10 most frequent functions:
+signature_description
+gp45 sliding clamp, C terminal    1
+
+-------------------------
+
+--- Cluster 83 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Domain of unknown function (DUF1330)     2
+Protein of unknown function (DUF1428)    1
+
+-------------------------
+
+--- Cluster 84 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+YHYH protein    1
+
+-------------------------
+
+--- Cluster 85 (Total Proteins: 24) ---
+Top 10 most frequent functions:
+signature_description
+C1q domain          1
+Calx-beta domain    1
+
+-------------------------
+
+--- Cluster 86 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Pentapeptide repeats (8 copies)                                      3
+Chlamydia polymorphic membrane protein (Chlamydia_PMP) repeat        2
+POMP_repeat: chlamydial polymorphic outer membrane protein repeat    1
+Right handed beta helix region                                       1
+Bacterial Ig domain                                                  1
+
+-------------------------
+
+--- Cluster 87 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+2Fe-2S iron-sulfur cluster binding domain                       4
+Cytidylyltransferase-like                                       4
+cyt_tran_rel: cytidyltransferase-like domain                    4
+2Fe-2S ferredoxin-type iron-sulfur binding region signature.    2
+fdx_plant: ferredoxin [2Fe-2S]                                  2
+4Fe-4S ferredoxin-type iron-sulfur binding region signature.    2
+tRNA methyl transferase                                         1
+Arginosuccinate synthase                                        1
+Argininosuccinate synthase signature 1.                         1
+4Fe-4S dicluster domain                                         1
+
+-------------------------
+
+--- Cluster 88 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+RTX calcium-binding nonapeptide repeat (4 copies)    1
+Hemolysin-type calcium-binding region signature.     1
+
+-------------------------
+
+--- Cluster 89 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Pentapeptide repeats (8 copies)                                   4
+Por_Secre_tail: Por secretion system C-terminal sorting domain    2
+Pentapeptide repeats (9 copies)                                   2
+Mycoplasma protein of unknown function, DUF285                    1
+Right handed beta helix region                                    1
+
+-------------------------
+
+--- Cluster 90 (Total Proteins: 24) ---
+Top 10 most frequent functions:
+signature_description
+Proteasome component signature          2
+Dynein heavy chain C-terminal domain    1
+Proteasome subunit                      1
+
+-------------------------
+
+--- Cluster 92 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Flagellin hook IN motif    1
+AsmA family                1
+Virus neck protein         1
+
+-------------------------
+
+--- Cluster 93 (Total Proteins: 24) ---
+Top 10 most frequent functions:
+signature_description
+Carbohydrate esterase, sialic acid-specific acetylesterase    1
+/NonD: hydrolase CocE/NonD family protein                     1
+X-Pro dipeptidyl-peptidase C-terminal non-catalytic domain    1
+C-terminal binding-module, SLH-like, of glucodextranase       1
+Gene 25-like lysozyme                                         1
+Type I phosphodiesterase / nucleotide pyrophosphatase         1
+
+-------------------------
+
+--- Cluster 94 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+Domain of unknown function (DUF4815)    2
+Elongation factor P signature.          1
+Elongation factor P, C-terminal         1
+YHYH protein                            1
+Bacteriophage T4, Gp8                   1
+
+-------------------------
+
+--- Cluster 95 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Virus neck protein    1
+
+-------------------------
+
+--- Cluster 96 (Total Proteins: 26) ---
+Top 10 most frequent functions:
+signature_description
+AraC bacterial regulatory protein HTH signature    4
+LysM domain                                        3
+Helix-turn-helix domain                            3
+CBS domain                                         2
+BON domain                                         2
+Stage II sporulation protein E (SpoIIE)            2
+ComEC_N-term: ComEC/Rec2-related protein           1
+Competence protein                                 1
+FHA domain                                         1
+7TMR-DISM extracellular 2                          1
+
+-------------------------
+
+--- Cluster 98 (Total Proteins: 27) ---
+Top 10 most frequent functions:
+signature_description
+Pyridine nucleotide disulphide reductase class-I signature            21
+FAD-dependent pyridine nucleotide reductase signature                 11
+Aminotransferase class I and II                                        4
+Aminotransferase class-V                                               4
+Pyridine nucleotide-disulphide oxidoreductase                          3
+Pyridine nucleotide-disulphide oxidoreductase, dimerisation domain     3
+Aminotransferase class-III                                             2
+MobA-like NTP transferase domain                                       2
+lipoamide_DH: dihydrolipoyl dehydrogenase                              2
+Bacterial transferase hexapeptide (six repeats)                        2
+
+-------------------------
+
+--- Cluster 99 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+ABC transporter                                                                              10
+ABC transporters family signature.                                                            6
+Oligopeptide/dipeptide transporter, C-terminal region                                         2
+DNA mismatch repair proteins mutS family signature.                                           1
+MutS family domain IV                                                                         1
+MutS domain V                                                                                 1
+oligo_HPY: oligopeptide/dipeptide ABC transporter, ATP-binding protein, C-terminal domain     1
+ntrCD: nitrate ABC transporter, ATP-binding proteins C and D                                  1
+ATPase family associated with various cellular activities (AAA)                               1
+AAA-protein family signature.                                                                 1
+
+-------------------------
+
+--- Cluster 100 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial sensor protein C-terminal signature              8
+His Kinase A (phospho-acceptor) domain                     3
+Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase    3
+Response regulator receiver domain                         3
+Polyprenyl synthetase                                      3
+LacI bacterial regulatory protein HTH signature            2
+HAMP domain                                                2
+GAF domain                                                 1
+MnmE helical domain                                        1
+GTP-binding protein TrmE N-terminus                        1
+
+-------------------------
+
+--- Cluster 101 (Total Proteins: 35) ---
+Top 10 most frequent functions:
+signature_description
+ABC transporter                                             22
+ABC transporter family E signature                          11
+ABC transporters family signature.                          10
+Kinesin heavy chain signature                                3
+ATP-dependent Clp protease ATP-binding subunit signature     2
+AraC bacterial regulatory protein HTH signature              2
+GTP1/OBG GTP-binding protein family signature                2
+DNA polymerase III, delta subunit                            2
+Bacterial regulatory proteins, araC family signature.        2
+Resolvase, N terminal domain                                 1
+
+-------------------------
+
+--- Cluster 102 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Leucine Rich repeat                               5
+Carbohydrate kinase                               2
+Methyltransferase domain                          2
+DnaJ domain                                       1
+4Fe-4S single cluster domain of Ferredoxin I      1
+UTP--glucose-1-phosphate uridylyltransferase      1
+fkbM_fam: methyltransferase, FkbM family          1
+tRNA methyltransferase complex GCD14 subunit      1
+Methyltransferase FkbM domain                     1
+Saccharopine dehydrogenase NADP binding domain    1
+
+-------------------------
+
+--- Cluster 103 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+Eggshell protein signature        8
+Right handed beta helix region    2
+Phage Tail Collar Domain          1
+
+-------------------------
+
+--- Cluster 105 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+P-type cation-transporting ATPase superfamily signature       16
+Copper-transporting ATPase signature                           6
+Helicase conserved C-terminal domain                           5
+ATPase_P-type: HAD ATPase, P-type, family IC                   4
+DEAD/DEAH box helicase                                         4
+Kinesin heavy chain signature                                  4
+H+-transporting ATPase (proton pump) signature                 4
+Mini-chromosome maintenance (MCM) protein family signature     4
+haloacid dehalogenase-like hydrolase                           3
+E1-E2 ATPases phosphorylation site.                            3
+
+-------------------------
+
+--- Cluster 106 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Ornithine/diaminopimelate/arginine (ODA) decarboxylase family signature    3
+Surface antigen variable number repeat                                     3
+Aconitase family signature                                                 2
+Cysteine-rich domain                                                       2
+Metallopeptidase family M81                                                1
+MlrC C-terminus                                                            1
+BRCA1 C Terminus (BRCT) domain                                             1
+Helix-hairpin-helix motif                                                  1
+Bacterial SH3 domain                                                       1
+Aconitase family signature 1.                                              1
+
+-------------------------
+
+--- Cluster 107 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Protein kinase domain                                      6
+Serine/Threonine protein kinases active-site signature.    5
+Protein kinases ATP-binding region signature.              4
+Cyclic nucleotide-binding domain                           2
+
+-------------------------
+
+--- Cluster 108 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+ATP-dependent Clp protease ATP-binding subunit signature           12
+ATPase family associated with various cellular activities (AAA)     5
+Chaperonins clpA/B signature 1.                                     4
+AAA lid domain                                                      4
+Protein phosphatase 2C                                              4
+C-terminal, D2-small domain, of ClpB protein                        4
+AAA domain (Cdc48 subfamily)                                        4
+Chaperonins clpA/B signature 2.                                     2
+Sigma-54 interaction domain C-terminal part signature.              1
+Protein kinase domain                                               1
+
+-------------------------
+
+--- Cluster 109 (Total Proteins: 20) ---
+Top 10 most frequent functions:
+signature_description
+Transforming protein P21 ras signature           2
+EF-hand calcium-binding domain.                  2
+Ras family                                       1
+Plants and Prokaryotes Conserved (PCC) domain    1
+Dna[CI] antecedent, DciA                         1
+EF-hand domain pair                              1
+
+-------------------------
+
+--- Cluster 111 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Shikimate kinase family signature                                  5
+Aldo/keto reductase family                                         1
+Shikimate kinase signature.                                        1
+Shikimate kinase                                                   1
+Thiazole biosynthesis protein ThiG                                 1
+Histidine biosynthesis protein                                     1
+HAD-SF-IIB-MPGP: mannosyl-3-phosphoglycerate phosphatase family    1
+haloacid dehalogenase-like hydrolase                               1
+NADH:flavin oxidoreductase / NADH oxidase family                   1
+
+-------------------------
+
+--- Cluster 112 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+TrkA potassium uptake protein signature                     10
+Glycosyl transferases group 1                                6
+Glycosyl transferase family 2                                4
+TrkA-N domain                                                3
+TrkA-C domain                                                3
+Glycosyl transferase family 41                               2
+Sulfotransferase family                                      2
+pyrC_multi: dihydroorotase, multifunctional complex type     1
+Amidohydrolase family                                        1
+3-hydroxyacyl-CoA dehydrogenase, NAD binding domain          1
+
+-------------------------
+
+--- Cluster 113 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Glycosyl transferases group 1                                            2
+Glycosyl transferase family 11                                           1
+Glycosyltransferase family 10 (fucosyltransferase) C-term                1
+ubiE/COQ5 methyltransferase family                                       1
+MenG_MenH_UbiE: ubiquinone/menaquinone biosynthesis methyltransferase    1
+Protein of unknown function (DUF2827)                                    1
+
+-------------------------
+
+--- Cluster 114 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+Prolyl oligopeptidase serine protease (S9A) signature    6
+Alpha/beta hydrolase fold signature                      4
+alpha/beta hydrolase fold                                4
+Tetratricopeptide repeat                                 3
+Ankyrin repeat signature                                 2
+Glycosyl transferase family 2                            2
+Glycosyl transferase family 41                           2
+AMP-binding enzyme                                       1
+AMP-binding enzyme C-terminal domain                     1
+Putative AMP-binding domain signature.                   1
+
+-------------------------
+
+--- Cluster 115 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Acriflavin resistance protein family signature    14
+AcrB/AcrD/AcrF family                              3
+FtsX-like permease family                          2
+MacB-like periplasmic core domain                  1
+
+-------------------------
+
+--- Cluster 116 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial sensor protein C-terminal signature                  16
+sensory_box: PAS domain S-box protein                           5
+Response regulator receiver domain                              5
+Major sigma-70 factor signature                                 5
+Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase         4
+His Kinase A (phospho-acceptor) domain                          3
+PAS fold                                                        3
+PAS domain                                                      3
+Sigma-54 interaction domain                                     1
+Sigma-54 interaction domain ATP-binding region A signature.     1
+
+-------------------------
+
+--- Cluster 117 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+HtrA/DegQ protease family signature                                                                                                  11
+PDZ domain                                                                                                                            4
+Bacterial sensor protein C-terminal signature                                                                                         3
+sucB: dihydrolipoyllysine-residue succinyltransferase, E2 component of oxoglutarate dehydrogenase (succinyl-transferring) complex     2
+Trypsin-like peptidase domain                                                                                                         2
+2-oxo acid dehydrogenases acyltransferase component lipoyl binding site.                                                              2
+Biotin-requiring enzyme                                                                                                               2
+2-oxoacid dehydrogenases acyltransferase (catalytic domain)                                                                           2
+HD domain                                                                                                                             1
+Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase                                                                               1
+
+-------------------------
+
+--- Cluster 118 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Penicillin binding protein transpeptidase domain    1
+Penicillin-binding Protein dimerisation domain      1
+Aerotolerance regulator N-terminal                  1
+Transglycosylase                                    1
+prc: C-terminal processing peptidase                1
+Peptidase family S41                                1
+Thioredoxin-like                                    1
+
+-------------------------
+
+--- Cluster 119 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Fibronectin type III domain                          4
+PA14 domain                                          2
+Concanavalin A-like lectin/glucanases superfamily    2
+Lamin Tail Domain                                    1
+Fn3 associated                                       1
+Zinc carboxypeptidase                                1
+Trypsin-like peptidase domain                        1
+
+-------------------------
+
+--- Cluster 120 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Immunoglobulin I-set domain    2
+
+-------------------------
+
+--- Cluster 121 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Transferrin receptor-like dimerisation domain           1
+SNF2 family N-terminal domain                           1
+FAD binding domain of DNA photolyase                    1
+AAA domain (dynein-related subfamily)                   1
+SecA Wing and Scaffold domain                           1
+DNA polymerase III subunits gamma and tau domain III    1
+
+-------------------------
+
+--- Cluster 122 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+MORN repeat                                                   16
+Liste_lipo_26: bacterial surface protein 26-residue repeat     5
+Putative metal-binding motif                                   5
+Putative ephrin-receptor like                                  4
+Stigma-specific protein, Stig1                                 4
+ShK domain-like                                                3
+Mycoplasma protein of unknown function, DUF285                 3
+Wilm's tumour protein signature                                2
+Prolyl oligopeptidase, N-terminal beta-propeller domain        1
+Laminin-type EGF-like (LE) domain signature.                   1
+
+-------------------------
+
+--- Cluster 123 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+C1q domain               1
+Bacteriophage T4, Gp8    1
+
+-------------------------
+
+--- Cluster 124 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+NodO calcium binding signature                         4
+Domain of unknown function (DUF5122) beta-propeller    4
+WD40-like Beta Propeller Repeat                        2
+NHL repeat                                             2
+Bacterial Ig domain                                    1
+Regulator of chromosome condensation (RCC1) repeat     1
+Hemolysin-type calcium-binding region signature.       1
+RTX calcium-binding nonapeptide repeat (4 copies)      1
+Concanavalin A-like lectin/glucanases superfamily      1
+Bacterial Ig-like domain                               1
+
+-------------------------
+
+--- Cluster 125 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Concanavalin A-like lectin/glucanases superfamily    7
+C1q domain                                           1
+Carbohydrate binding domain                          1
+
+-------------------------
+
+--- Cluster 127 (Total Proteins: 24) ---
+Top 10 most frequent functions:
+signature_description
+Domain of unknown function (DUF5011)               2
+Putative metal-binding motif                       2
+Fn3 associated                                     1
+CotH kinase protein                                1
+T4-like virus Myoviridae tail sheath stabiliser    1
+Phage minor tail protein L                         1
+YHYH protein                                       1
+Sulfatase-modifying factor enzyme 1                1
+
+-------------------------
+
+--- Cluster 128 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Flagellar basal body protein FlaE                    1
+Concanavalin A-like lectin/glucanases superfamily    1
+
+-------------------------
+
+--- Cluster 129 (Total Proteins: 25) ---
+Top 10 most frequent functions:
+signature_description
+YHYH protein                                        3
+Flagellin signature                                 3
+Calx-beta domain                                    2
+Flagellar basal body protein FlaE                   1
+Flagella basal body rod protein                     1
+FlgEFG_subfam: flagellar hook-basal body protein    1
+Bacterial flagellin N-terminal helical region       1
+Chaperone of endosialidase                          1
+Bacterial flagellin C-terminal helical region       1
+Motility related/secretion protein                  1
+
+-------------------------
+
+--- Cluster 130 (Total Proteins: 26) ---
+Top 10 most frequent functions:
+signature_description
+GMC oxidoreductase                                                   11
+FAD binding domain                                                    8
+FAD-dependent glycerol-3-phosphate dehydrogenase family signature     6
+B-class P450 signature                                                6
+GMC oxidoreductases signature 2.                                      5
+Aromatic-ring hydroxylase (flavoprotein monooxygenase) signature      5
+FAD-dependent pyridine nucleotide reductase signature                 4
+GMC oxidoreductases signature 1.                                      4
+Adrenodoxin reductase family signature                                4
+Flavin containing amine oxidoreductase                                3
+
+-------------------------
+
+--- Cluster 131 (Total Proteins: 60) ---
+Top 10 most frequent functions:
+signature_description
+Plant ascorbate peroxidase signature                        4
+Haem peroxidase superfamily signature                       3
+Polysaccharide biosynthesis C-terminal domain               1
+Zinc finger RanBP2-type signature.                          1
+RNA polymerase II-binding domain.                           1
+Ham1 family                                                 1
+Exostosin family                                            1
+BTB And C-terminal Kelch                                    1
+Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD    1
+SET domain                                                  1
+
+-------------------------
+
+--- Cluster 132 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Serine/threonine phosphatase family signature                7
+Anthranilate synthase component II signature                 3
+Glutamine amidotransferase superfamily signature             3
+Ectoine synthase                                             1
+Carbamoyl-phosphate synthase subdomain signature 2.          1
+lysidine_TilS_N: tRNA(Ile)-lysidine synthetase               1
+SAM dependent carboxyl methyltransferase                     1
+PP-loop family                                               1
+ATP-grasp domain                                             1
+Serine/threonine specific protein phosphatases signature.    1
+
+-------------------------
+
+--- Cluster 133 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Carbamoyl-phosphate synthase protein GATase domain signature    15
+Glutamine amidotransferase superfamily signature                 9
+Anthranilate synthase component II signature                     9
+Glutamine amidotransferase class-I                               4
+Carbamoyl-phosphate synthase small chain, CPSase domain          2
+CPSaseIIsmall: carbamoyl-phosphate synthase, small subunit       2
+Tricorn protease PDZ domain                                      1
+
+-------------------------
+
+--- Cluster 134 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Phosphoribosyltransferase                                       1
+Aminopeptidase P and proline dipeptidase signature.             1
+Metallopeptidase family M24                                     1
+EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)    1
+EPSP synthase signature 1.                                      1
+MmgE/PrpD family                                                1
+UvrD/REP helicase N-terminal domain                             1
+Acyl-CoA dehydrogenases signature 2.                            1
+Acyl-CoA dehydrogenase, C-terminal domain                       1
+
+-------------------------
+
+--- Cluster 135 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+90kDa heat shock protein signature                                 7
+Peptidase family M3                                                4
+AAA-protein family signature.                                      1
+AAA+ lid domain                                                    1
+ATPase family associated with various cellular activities (AAA)    1
+Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase            1
+Peptidase family M41                                               1
+Hsp90 protein                                                      1
+M3_not_pepF: oligoendopeptidase, M3 family                         1
+UvrD/REP helicase N-terminal domain                                1
+
+-------------------------
+
+--- Cluster 136 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+RNA (C5-cytosine) methyltransferase signature                               9
+NOL1/NOP2/sun family signature.                                             2
+16S rRNA methyltransferase RsmB/F                                           2
+Biotin-requiring enzyme                                                     2
+Histone deacetylase superfamily signature                                   2
+2-oxo acid dehydrogenases acyltransferase component lipoyl binding site.    1
+Histidine phosphatase superfamily (branch 1)                                1
+Biotin-requiring enzymes attachment site.                                   1
+PS_decarb_rel: phosphatidylserine decarboxylase homolog                     1
+Phosphatidylserine decarboxylase                                            1
+
+-------------------------
+
+--- Cluster 137 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Methionine aminopeptidase-1 signature                10
+Metallopeptidase family M24                           3
+met_pdase_I: methionine aminopeptidase, type I        2
+Methionine aminopeptidase subfamily 1 signature.      2
+Phage endonuclease I                                  1
+KDO8P_synth: 3-deoxy-8-phosphooctulonate synthase     1
+DAHP synthetase I family                              1
+Helix-turn-helix domain                               1
+
+-------------------------
+
+--- Cluster 138 (Total Proteins: 16) ---
+Top 10 most frequent functions:
+signature_description
+Rieske 2Fe-2S subunit signature                                         3
+PD-(D/E)XK nuclease superfamily                                         2
+Amidohydrolase family                                                   1
+Thioesterase superfamily                                                1
+Dihydroorotase signature 2.                                             1
+Acetyl-coenzyme A synthetase N-terminus                                 1
+AMP-binding enzyme                                                      1
+Ubiquitinol-cytochrome C reductase Fe-S subunit TAT signal              1
+Rieske [2Fe-2S] domain                                                  1
+Rieske_proteo: ubiquinol-cytochrome c reductase, iron-sulfur subunit    1
+
+-------------------------
+
+--- Cluster 139 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Phosphate acetyl/butaryl transferase                            1
+ArgJ family                                                     1
+EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)    1
+TIGR00726: YfiH family protein                                  1
+Multi-copper polyphenol oxidoreductase laccase                  1
+Aminotransferase class-III                                      1
+
+-------------------------
+
+--- Cluster 140 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+Methyl-accepting chemotaxis protein (MCP) signalling domain    4
+HAMP domain                                                    1
+Uncharacterized protein conserved in bacteria (DUF2130)        1
+Sperm tail                                                     1
+Snare region anchored in the vesicle membrane C-terminus       1
+GRIP domain                                                    1
+Domain of unknown function (DUF4201)                           1
+
+-------------------------
+
+--- Cluster 141 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Xylanase inhibitor N-terminal    1
+
+-------------------------
+
+--- Cluster 142 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Acetyltransferase (GNAT) family    3
+AAA ATPase domain                  1
+Peptidase family M1 domain         1
+Acetyltransferase (GNAT) domain    1
+
+-------------------------
+
+--- Cluster 143 (Total Proteins: 23) ---
+Top 10 most frequent functions:
+signature_description
+Alpha/beta hydrolase fold signature             9
+Epoxide hydrolase signature                     4
+alpha/beta hydrolase fold                       3
+Serine aminopeptidase, S33                      2
+Glucose / Sorbosone dehydrogenase               2
+BNR repeat-like domain                          2
+DegT/DnrJ/EryC1/StrS aminotransferase family    1
+Hsp20/alpha crystallin family                   1
+SnoaL-like domain                               1
+Putative esterase                               1
+
+-------------------------
+
+--- Cluster 144 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Thioesterase superfamily                                          3
+MaoC like domain                                                  3
+FabA-like domain                                                  2
+fabZ: beta-hydroxyacyl-(acyl-carrier-protein) dehydratase FabZ    1
+Aminotransferase class-III                                        1
+Polyketide cyclase / dehydrase and lipid transport                1
+unchar_dom_1: uncharacterized domain 1                            1
+
+-------------------------
+
+--- Cluster 145 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Calcineurin-like phosphoesterase                                     3
+D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain      1
+D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain    1
+Response regulator receiver domain                                   1
+GGDEF: diguanylate cyclase (GGDEF) domain                            1
+Diguanylate cyclase, GGDEF domain                                    1
+TIGR04168: TIGR04168 family protein                                  1
+
+-------------------------
+
+--- Cluster 146 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Ankyrin repeats (3 copies)                                 9
+WD domain, G-beta repeat                                   4
+Ankyrin repeat signature                                   4
+Protein kinase domain                                      2
+Trp-Asp (WD) repeats signature.                            1
+Ankyrin repeats (many copies)                              1
+Serine/Threonine protein kinases active-site signature.    1
+
+-------------------------
+
+--- Cluster 147 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Diaminopimelate decarboxylase signature                                    4
+Ornithine/diaminopimelate/arginine (ODA) decarboxylase family signature    4
+Mevalonate kinase family signature                                         4
+Thiolase, N-terminal domain                                                2
+Thiolase, C-terminal domain                                                2
+Glycine cleavage system P-protein                                          2
+Pyridoxal-dependent decarboxylase, C-terminal sheet domain                 1
+Tryptophan synthase beta chain pyridoxal-phosphate attachment site.        1
+trpB: tryptophan synthase, beta subunit                                    1
+Pyridoxal-dependent decarboxylase, pyridoxal binding domain                1
+
+-------------------------
+
+--- Cluster 148 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Methyltransferase domain                                         5
+Exonuclease                                                      4
+dnaQ_proteo: DNA polymerase III, epsilon subunit                 3
+dnaq: exonuclease, DNA polymerase III, epsilon subunit family    3
+N-acylglucosamine 2-epimerase (GlcNAc 2-epimerase)               1
+TIGR00740: tRNA (cmo5U34)-methyltransferase                      1
+
+-------------------------
+
+--- Cluster 149 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Actin signature                                 2
+Cytidylyltransferase-like                       1
+Domain of unknown function (DUF4113)            1
+impB/mucB/samB family                           1
+Arginase family                                 1
+agmatinase: agmatinase                          1
+Arginase family signature.                      1
+impB/mucB/samB family C-terminal domain         1
+cobM_cbiF: precorrin-4 C11-methyltransferase    1
+Tetrapyrrole (Corrin/Porphyrin) Methylases      1
+
+-------------------------
+
+--- Cluster 150 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial chromosomal replication initiator (DNAA) signature    4
+DEAD/DEAH box helicase                                          3
+ROK family signature.                                           1
+ROK family                                                      1
+Glycosyl transferase family 2                                   1
+HD domain                                                       1
+Bacterial dnaA  protein                                         1
+Glycosyl transferases group 1                                   1
+UvrD/REP helicase N-terminal domain                             1
+pfkB family carbohydrate kinase                                 1
+
+-------------------------
+
+--- Cluster 151 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+GTP-binding elongation factor signature                                     5
+Aldo/keto reductase family                                                  3
+Bacterial cell shape determinant MreB/Mbl protein signature                 3
+70kDa heat shock protein signature                                          3
+Aldo-keto reductase signature                                               2
+small_GTP: small GTP-binding protein domain                                 1
+Translational (tr)-type guanine nucleotide-binding (G) domain signature.    1
+Integrase core domain                                                       1
+Elongation factor Tu GTP binding domain                                     1
+Radical SAM superfamily                                                     1
+
+-------------------------
+
+--- Cluster 152 (Total Proteins: 26) ---
+Top 10 most frequent functions:
+signature_description
+DnaB-like helicase C terminal domain                             3
+Type III restriction enzyme, res subunit                         2
+S21 class N4 adenine-specific DNA methyltransferase signature    2
+HD domain                                                        2
+Terminase-like family                                            2
+Terminase RNaseH-like domain                                     2
+Pyridoxal-phosphate dependent enzyme                             2
+Toprim-like                                                      2
+ParB-like nuclease domain                                        1
+DNA methylase                                                    1
+
+-------------------------
+
+--- Cluster 154 (Total Proteins: 31) ---
+Top 10 most frequent functions:
+signature_description
+ATP-dependent Clp protease ATP-binding subunit signature      6
+Glutamate 5-kinase family signature                           4
+Bacterial regulatory protein MarR family signature            4
+ATP synthase delta subunit signature                          4
+DnaJ domain signature                                         3
+50S ribosome-binding GTPase                                   2
+GTP1/OBG GTP-binding protein family signature                 2
+C-terminal, D2-small domain, of ClpB protein                  2
+AAA domain (Cdc48 subfamily)                                  2
+Pyridine nucleotide disulphide reductase class-I signature    2
+
+-------------------------
+
+--- Cluster 155 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+RNA recognition motif. (a.k.a. RRM, RBD, or RNP domain)    1
+RIB43A                                                     1
+
+-------------------------
+
+--- Cluster 156 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Diacylglycerol kinase catalytic domain    1
+
+-------------------------
+
+--- Cluster 158 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Tetratricopeptide repeat                4
+Myb-like DNA-binding domain             3
+MYND finger                             1
+SHNi-TPR                                1
+KIF-1 binding protein C terminal        1
+MalT-like TPR region                    1
+Pentatricopeptide repeat domain         1
+PPR: pentatricopeptide repeat domain    1
+
+-------------------------
+
+--- Cluster 159 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD    2
+Tetratricopeptide repeat                                    1
+U3 small nucleolar RNA-associated protein 6                 1
+Nin one binding (NOB1) Zn-ribbon like                       1
+PIN domain of ribonuclease                                  1
+Ankyrin repeats (3 copies)                                  1
+
+-------------------------
+
+--- Cluster 160 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Inositol monophosphatase superfamily signature       3
+KR domain                                            2
+Phosphopantetheine attachment site                   2
+Inositol monophosphatase family signature 2.         1
+Inositol monophosphatase family signature 1.         1
+Inositol monophosphatase family                      1
+ATP12 chaperone protein                              1
+bisphos_cysQ: 3'(2'),5'-bisphosphate nucleotidase    1
+Rit1 N-terminal domain                               1
+Rit1 DUSP-like domain                                1
+
+-------------------------
+
+--- Cluster 161 (Total Proteins: 33) ---
+Top 10 most frequent functions:
+signature_description
+Bromodomain signature                 3
+SART-1 family                         1
+RED-like protein N-terminal region    1
+Bromodomain                           1
+Extracellular link domain             1
+
+-------------------------
+
+--- Cluster 162 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Hydrolytic ATP binding site of dynein motor region    1
+
+-------------------------
+
+--- Cluster 164 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+P-loop containing dynein motor region                 1
+Dynein heavy chain AAA lid domain                     1
+Regulator of chromosome condensation (RCC1) repeat    1
+Biotin carboxylase, N-terminal domain                 1
+Chaperone of endosialidase                            1
+
+-------------------------
+
+--- Cluster 165 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Bacteriophage T4-like capsid assembly protein (Gp20)    1
+NMT1-like family                                        1
+
+-------------------------
+
+--- Cluster 167 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+CBS domain                                                      8
+Haloacid dehalogenase/epoxide hydrolase family signature        7
+Haloacid dehalogenase-like hydrolase                            2
+HAD-SF-IA-v1: HAD hydrolase, family IA, variant 1               2
+2Fe-2S iron-sulfur cluster binding domain                       2
+2Fe-2S ferredoxin-type iron-sulfur binding region signature.    2
+haloacid dehalogenase-like hydrolase                            2
+HAD-hyrolase-like                                               2
+Isochorismatase family                                          1
+ATP-NAD kinase                                                  1
+
+-------------------------
+
+--- Cluster 168 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Beta-lactamase                                                                               4
+FGAM_synth_I: phosphoribosylformylglycinamidine synthase I                                   1
+CobB/CobQ-like glutamine amidotransferase domain                                             1
+Glycosyltransferase family 9 (heptosyltransferase)                                           1
+IMP_synth_hisH: imidazole glycerol phosphate synthase, glutamine amidotransferase subunit    1
+Glutamine amidotransferase class-I                                                           1
+Protein of unknown function DUF45                                                            1
+
+-------------------------
+
+--- Cluster 169 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Thiamine pyrophosphate enzyme, C-terminal TPP binding domain          4
+Dehydrogenase E1 component                                            2
+Amidohydrolase family                                                 1
+Transketolase, thiamine diphosphate binding domain                    1
+Bacterial regulatory proteins, gntR family                            1
+1-deoxy-D-xylulose-5-phosphate synthase                               1
+dxs: 1-deoxy-D-xylulose-5-phosphate synthase                          1
+Transketolase, pyrimidine binding domain                              1
+acolac_lg: acetolactate synthase, large subunit, biosynthetic type    1
+Thiamine pyrophosphate enzyme, N-terminal TPP binding domain          1
+
+-------------------------
+
+--- Cluster 170 (Total Proteins: 38) ---
+Top 10 most frequent functions:
+signature_description
+Enolase signature                                  6
+Intein signature                                   5
+DNA-directed DNA-polymerase family B signature     3
+Myosin heavy chain signature                       3
+Transcription termination factor NUSG signature    3
+DNA polymerase family B                            2
+DNA polymerase family B signature.                 2
+C-5 cytosine-specific DNA methylase                2
+AICARFT/IMPCHase bienzyme                          1
+tRNA synthetases class I (I, L, M and V)           1
+
+-------------------------
+
+--- Cluster 171 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+GTP-binding elongation factor signature                                          10
+Elongation factor Tu GTP binding domain                                           3
+GTP1/OBG GTP-binding protein family signature                                     3
+Helix-hairpin-helix domain                                                        2
+Translational (tr)-type guanine nucleotide-binding (G) domain signature.          2
+NusA-like KH domain                                                               2
+NusA: transcription termination factor NusA                                       2
+small_GTP: small GTP-binding protein domain                                       2
+nusA_Cterm_rpt: transcription termination factor NusA, C-terminal duplication     2
+S1 RNA binding domain                                                             2
+
+-------------------------
+
+--- Cluster 172 (Total Proteins: 37) ---
+Top 10 most frequent functions:
+signature_description
+Protein kinase domain                                      2
+Protein kinases ATP-binding region signature.              2
+EF-hand calcium-binding domain.                            2
+Anion-transporting ATPase                                  2
+Serine/Threonine protein kinases active-site signature.    1
+Alpha and gamma adaptin binding protein p34                1
+EF-hand domain pair                                        1
+AP-5 complex subunit sigma-1                               1
+Pentatricopeptide repeat domain                            1
+Putative methyltransferase                                 1
+
+-------------------------
+
+--- Cluster 173 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Aminotransferase class-III                                          6
+Aminotransferases class-III pyridoxal-phosphate attachment site.    5
+Beta-eliminating lyase                                              2
+Aminotransferase class-V                                            1
+Aminotransferase class I and II                                     1
+Aminotransferases class-I pyridoxal-phosphate attachment site.      1
+Beta-ketoacyl synthase, C-terminal domain                           1
+Beta-ketoacyl synthases active site.                                1
+Beta-ketoacyl synthase, N-terminal domain                           1
+Protein phosphatase 2C                                              1
+
+-------------------------
+
+--- Cluster 174 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+ThiF family                                                       2
+Penicillin binding protein transpeptidase domain                  1
+Response regulator receiver domain                                1
+3-hydroxyacyl-CoA dehydrogenase, NAD binding domain               1
+Aminotransferases class-I pyridoxal-phosphate attachment site.    1
+Aminotransferase class I and II                                   1
+Carbohydrate kinase                                               1
+yjeF_cterm: YjeF family C-terminal domain                         1
+YjeF C-terminal domain signature 2.                               1
+
+-------------------------
+
+--- Cluster 175 (Total Proteins: 72) ---
+Top 10 most frequent functions:
+signature_description
+Dynamin signature                                 4
+EF-hand calcium-binding domain.                   4
+PH domain                                         3
+Lipoxygenase signature                            3
+Inositol monophosphatase superfamily signature    3
+PLU-1-like protein                                2
+Biotin/lipoate A/B protein ligase family          1
+Dynamin family                                    1
+Lipoate-protein ligase B signature.               1
+Cathepsin propeptide inhibitor domain (I29)       1
+
+-------------------------
+
+--- Cluster 176 (Total Proteins: 34) ---
+Top 10 most frequent functions:
+signature_description
+Aconitase family signature                                       14
+60kDa chaperonin signature                                       10
+Histidinol dehydrogenase signature                                8
+Xeroderma pigmentosum group G/yeast RAD superfamily signature     7
+DNA-polymerase family A (pol I) signature                         4
+Inositol monophosphatase superfamily signature                    4
+Ubiquitin-activating enzyme E1 signature                          3
+TCP-1/cpn60 chaperonin family                                     3
+Tailless complex polypeptide 1 (chaperone) signature              3
+Aconitase family (aconitate hydratase)                            2
+
+-------------------------
+
+--- Cluster 177 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+UDP-3-O-acyl N-acetylglycosamine deacetylase                          1
+lpxC: UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase    1
+Ribosomal protein L4/L1 family                                        1
+rplD_bact: 50S ribosomal protein uL4                                  1
+Formate--tetrahydrofolate ligase                                      1
+Formate--tetrahydrofolate ligase signature 1.                         1
+Peptidase C39 family                                                  1
+ABC transporter transmembrane region                                  1
+Acyl-CoA dehydrogenase, middle domain                                 1
+Acyl-CoA dehydrogenases signature 2.                                  1
+
+-------------------------
+
+--- Cluster 178 (Total Proteins: 60) ---
+Top 10 most frequent functions:
+signature_description
+Ribonucleotide reductase large chain signature    7
+Citrate synthase signature                        6
+DNA gyrase C-terminal domain, beta-propeller      5
+Ribonucleotide reductase, barrel domain           4
+Tyrosyl-tRNA synthetase signature                 4
+Valyl-tRNA synthetase signature                   4
+ATP synthase gamma subunit signature              4
+Methionyl-tRNA synthetase signature               3
+Peptidase M15                                     2
+Cysteinyl-tRNA synthetase signature               2
+
+-------------------------
+
+--- Cluster 179 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+HIV Rev interacting protein signature         3
+ABC-type uncharacterized transport system     1
+Domain of unknown function (DUF4330)          1
+PPE family                                    1
+DHHA1 domain                                  1
+Putative GTPase activating protein for Arf    1
+
+-------------------------
+
+--- Cluster 180 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Scramblase                               2
+C2 domain                                2
+Receptor family ligand binding region    1
+SET domain                               1
+MYND finger                              1
+Polyketide synthase dehydratase          1
+F/Y-rich N-terminus                      1
+F/Y rich C-terminus                      1
+
+-------------------------
+
+--- Cluster 181 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Glycosyltransferase family 29 (sialyltransferase)    1
+CRAL/TRIO domain                                     1
+C2 domain                                            1
+Ribosomal protein L4/L1 family                       1
+
+-------------------------
+
+--- Cluster 182 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Catalase signature                                         6
+Glycyl-tRNA synthetase signature                           6
+Myo-inositol-1-phosphate synthase                          2
+Catalase proximal active site signature.                   1
+Catalase-related immune-responsive                         1
+Catalase                                                   1
+Glycosyl hydrolase family 57                               1
+tRNA synthetase class II core domain (G, H, P, S and T)    1
+glyS_dimeric: glycine--tRNA ligase                         1
+PIF1-like helicase                                         1
+
+-------------------------
+
+--- Cluster 183 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Citrate synthase signature                                    6
+Glucose-6-phosphate dehydrogenase signature                   5
+cit_synth_II: 2-methylcitrate synthase/citrate synthase II    1
+Citrate synthase, C-terminal domain                           1
+Glucose-6-phosphate dehydrogenase, C-terminal domain          1
+zwf: glucose-6-phosphate dehydrogenase                        1
+Glucose-6-phosphate dehydrogenase, NAD binding domain         1
+Glucose-6-phosphate dehydrogenase active site.                1
+NAD-dependent DNA ligase adenylation domain                   1
+DNA mismatch repair protein, C-terminal domain                1
+
+-------------------------
+
+--- Cluster 184 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+Cyclophilin peptidyl-prolyl cis-trans isomerase signature                5
+Inositol monophosphatase superfamily signature                           5
+IV_pilin_GFxxxE: prepilin-type N-terminal cleavage/methylation domain    1
+Bacterial DNA polymerase III alpha subunit finger domain                 1
+AIG2-like family                                                         1
+Prokaryotic N-terminal methylation motif                                 1
+Uncharacterized protein conserved in bacteria (DUF2135)                  1
+Protein of unknown function (DUF2851)                                    1
+Inositol monophosphatase family                                          1
+tRNA methyl transferase                                                  1
+
+-------------------------
+
+--- Cluster 185 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Cysteinyl-tRNA synthetase signature                                 4
+Acyl-CoA dehydrogenase, N-terminal domain                           1
+SCP-2 sterol transfer family                                        1
+Acyl-CoA dehydrogenase, C-terminal domain                           1
+Porphobilinogen deaminase, dipyromethane cofactor binding domain    1
+DALR domain                                                         1
+tRNA synthetases class I (C) catalytic domain                       1
+cysS: cysteine--tRNA ligase                                         1
+Imelysin                                                            1
+tRNA (Guanine-1)-methyltransferase                                  1
+
+-------------------------
+
+--- Cluster 186 (Total Proteins: 45) ---
+Top 10 most frequent functions:
+signature_description
+Fumarate lyase superfamily signature        4
+Aspartyl-tRNA synthetase signature          4
+Tryptophanyl-tRNA synthetase signature      4
+Mannitol dehydrogenase signature            4
+tRNA synthetases class II (D, K and N)      2
+Uncharacterized ACR, YdiU/UPF0061 family    2
+Methylmalonyl-CoA mutase                    2
+Transposase zinc-binding domain             1
+Putative transposase                        1
+AIPR protein                                1
+
+-------------------------
+
+--- Cluster 187 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+Rlu family of pseudouridine synthase signature.    1
+RNA pseudouridylate synthase                       1
+Lyase                                              1
+Amidase                                            1
+Sec23/Sec24 zinc finger                            1
+
+-------------------------
+
+--- Cluster 188 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+LD-carboxypeptidase C-terminal domain           1
+tRNA pseudouridine synthase                     1
+Glutathione S-transferase, C-terminal domain    1
+MraW methylase family                           1
+
+-------------------------
+
+--- Cluster 189 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Redoxin                                                                      3
+Helix-turn-helix                                                             2
+Thioredoxin family active site.                                              2
+dsbE: periplasmic protein thiol:disulfide oxidoreductases, DsbE subfamily    2
+Glutathione peroxidase family signature                                      2
+Cyanase signature                                                            2
+Glutathione peroxidases active site.                                         1
+Glutathione peroxidase                                                       1
+Helix-turn-helix domain                                                      1
+excise: DNA binding domain, excisionase family                               1
+
+-------------------------
+
+--- Cluster 191 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Glutathione S-transferase, N-terminal domain                     3
+Glutathione S-transferase, C-terminal domain                     2
+Formyl transferase                                               2
+FAD-dependent pyridine nucleotide reductase signature            2
+LytB protein                                                     1
+ispH_lytB: 4-hydroxy-3-methylbut-2-enyl diphosphate reductase    1
+sensory_box: PAS domain S-box protein                            1
+nadB: L-aspartate oxidase                                        1
+PAS domain                                                       1
+Fumarate reductase flavoprotein C-term                           1
+
+-------------------------
+
+--- Cluster 192 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+5'-3' exonuclease, N-terminal resolvase-like domain             1
+T4 gene Gp59 loader of gp41 DNA helicase                        1
+HMGL-like                                                       1
+Alpha-isopropylmalate and homocitrate synthases signature 1.    1
+Acyltransferase family                                          1
+Tubulin-tyrosine ligase family                                  1
+
+-------------------------
+
+--- Cluster 193 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Flavin containing amine oxidoreductase                     1
+Nitronate monooxygenase                                    1
+Acyltransferase                                            1
+Base plate wedge protein 53                                1
+Tubulin-tyrosine ligase family                             1
+S-adenosyl-L-homocysteine hydrolase                        1
+S-adenosyl-L-homocysteine hydrolase, NAD binding domain    1
+S-adenosyl-L-homocysteine hydrolase signature 2.           1
+Metalloenzyme superfamily                                  1
+BPG-independent PGAM N-terminus (iPGM_N)                   1
+
+-------------------------
+
+--- Cluster 194 (Total Proteins: 16) ---
+Top 10 most frequent functions:
+signature_description
+Tetratricopeptide repeat                          7
+Protein kinase domain                             2
+CRISPR associated protein                         1
+Cyclic nucleotide-binding domain signature 2.     1
+Cyclic nucleotide-binding domain                  1
+Transcriptional regulatory protein, C terminal    1
+JAB1/Mov34/MPN/PAD-1 ubiquitin protease           1
+PPR: pentatricopeptide repeat domain              1
+Transglutaminase-like superfamily                 1
+
+-------------------------
+
+--- Cluster 195 (Total Proteins: 44) ---
+Top 10 most frequent functions:
+signature_description
+U-box domain                                      2
+Protein kinases ATP-binding region signature.     1
+SEC-C motif                                       1
+Beta2-adaptin appendage, C-terminal sub-domain    1
+Heat shock factor binding protein 1               1
+Endoplasmic reticulum vesicle transporter         1
+
+-------------------------
+
+--- Cluster 196 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial carbamate kinase signature        3
+PD-(D/E)XK nuclease superfamily             2
+Pyruvate kinase, barrel domain              1
+Terminase RNaseH-like domain                1
+ATP phosphoribosyltransferase               1
+ATP phosphoribosyltransferase signature.    1
+hisG: ATP phosphoribosyltransferase         1
+HTH DNA binding domain                      1
+
+-------------------------
+
+--- Cluster 197 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Tailless complex polypeptide 1 (chaperone) signature           2
+TCP-1/cpn60 chaperonin family                                  1
+Ribosomal protein L11, N-terminal domain                       1
+Ribosomal protein L11 signature.                               1
+Ribosomal protein L11, RNA binding domain                      1
+L11_bact: ribosomal protein uL11                               1
+Ribosomal protein L1p/L10e family                              1
+Ribosomal protein L1 signature.                                1
+2-oxoacid dehydrogenases acyltransferase (catalytic domain)    1
+e3 binding domain                                              1
+
+-------------------------
+
+--- Cluster 198 (Total Proteins: 51) ---
+Top 10 most frequent functions:
+signature_description
+Argininosuccinate lyase family signature                        5
+Aconitase family signature                                      5
+Glutamyl-tRNA synthetase signature                              5
+Fumarate lyase superfamily signature                            3
+Acyl-CoA dehydrogenase, C-terminal domain                       2
+Acyl-CoA dehydrogenase, N-terminal domain                       2
+Squalene/phytoene synthase                                      2
+FeS_long_SufT: probable FeS assembly SUF system protein SufT    1
+Ribonucleotide reductase, barrel domain                         1
+Thymidylate synthase complementing protein                      1
+
+-------------------------
+
+--- Cluster 199 (Total Proteins: 41) ---
+Top 10 most frequent functions:
+signature_description
+Phosphoglycerate kinase family signature                        6
+Glyceraldehyde-3-phosphate dehydrogenase signature              4
+Mannitol dehydrogenase signature                                3
+Cell division protein FtsZ signature                            2
+Methyltransferase domain                                        2
+EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)    2
+Pyridine nucleotide disulphide reductase class-I signature      2
+FAD-dependent pyridine nucleotide reductase signature           2
+Glycosyl transferase family 2                                   2
+EPSP synthase signature 1.                                      2
+
+-------------------------
+
+--- Cluster 200 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+RNase H-like domain found in reverse transcriptase             1
+Fdhalpha-like: oxidoreductase alpha (molybdopterin) subunit    1
+Molybdopterin oxidoreductase                                   1
+Molydopterin dinucleotide binding domain                       1
+Base plate wedge protein 53                                    1
+RNase H                                                        1
+Caulimovirus viroplasmin                                       1
+Endonuclease-reverse transcriptase                             1
+
+-------------------------
+
+--- Cluster 201 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Prolyl oligopeptidase serine protease (S9A) signature           3
+DALR anticodon binding domain                                   2
+Outer membrane lipoprotein carrier protein LolA                 1
+Domain of unknown function (DUF3576)                            1
+EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)    1
+Prolyl oligopeptidase, N-terminal beta-propeller domain         1
+Prolyl oligopeptidase family                                    1
+Uracil DNA glycosylase superfamily                              1
+Ferredoxin-fold anticodon binding domain                        1
+Phenylalanyl tRNA synthetase beta chain CLM domain              1
+
+-------------------------
+
+--- Cluster 202 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Leucyl-tRNA synthetase signature                       3
+Leucyl-tRNA synthetase, Domain 2                       1
+Oxidoreductase family, C-terminal alpha/beta domain    1
+Translation-initiation factor 2                        1
+
+-------------------------
+
+--- Cluster 203 (Total Proteins: 35) ---
+Top 10 most frequent functions:
+signature_description
+Leucyl-tRNA synthetase signature                    3
+Staphylococcal nuclease homologue                   2
+Aspartyl/Asparaginyl beta-hydroxylase               2
+HNH endonuclease                                    1
+Recombination endonuclease VII                      1
+dCTP_deam: deoxycytidine triphosphate deaminase     1
+DNA polymerase family B, exonuclease domain         1
+Rhs_assc_core: RHS repeat-associated core domain    1
+DNA topoisomerase                                   1
+Virulence-associated protein E                      1
+
+-------------------------
+
+--- Cluster 205 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+Sulfurtransferase TusA    1
+
+-------------------------
+
+--- Cluster 207 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Ankyrin repeat signature                                           4
+Ankyrin repeats (3 copies)                                         3
+Ankyrin repeats (many copies)                                      1
+EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)       1
+Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily    1
+
+-------------------------
+
+--- Cluster 208 (Total Proteins: 29) ---
+Top 10 most frequent functions:
+signature_description
+Ankyrin repeats (3 copies)    1
+
+-------------------------
+
+--- Cluster 209 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+ACT domain                                                            2
+HhH-GPD superfamily base excision DNA repair protein                  1
+3-dehydroquinate synthase                                             1
+sensory_box: PAS domain S-box protein                                 1
+Peptidase family M20/M25/M40                                          1
+Transketolase, C-terminal domain                                      1
+UvrA interaction domain                                               1
+Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain III    1
+Phosphoglucomutase/phosphomannomutase, C-terminal domain              1
+
+-------------------------
+
+--- Cluster 210 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Tetratricopeptide repeat                2
+Helicase conserved C-terminal domain    1
+
+-------------------------
+
+--- Cluster 211 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Tetratricopeptide repeat                            2
+Sel1 repeat                                         2
+Rhodanese-like domain                               1
+Cytochrome c                                        1
+Anaphase-promoting complex, cyclosome, subunit 3    1
+
+-------------------------
+
+--- Cluster 212 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+UPF0113 PUA domain    1
+
+-------------------------
+
+--- Cluster 213 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+AhpC/TSA family                                                3
+Sulfatase                                                      2
+Redoxin                                                        2
+4Fe-4S single cluster domain                                   1
+FAD binding domain                                             1
+Metalloenzyme superfamily                                      1
+2,3-bisphosphoglycerate-independent phosphoglycerate mutase    1
+
+-------------------------
+
+--- Cluster 214 (Total Proteins: 34) ---
+Top 10 most frequent functions:
+signature_description
+Triosephosphate isomerase                                1
+FabA-like domain                                         1
+Aminoacyl-transfer RNA synthetases class-I signature.    1
+tRNA synthetases class I (K)                             1
+CsiD                                                     1
+Antibiotic biosynthesis monooxygenase                    1
+
+-------------------------
+
+--- Cluster 215 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+UDP-3-O-acyl N-acetylglycosamine deacetylase    1
+
+-------------------------
+
+--- Cluster 216 (Total Proteins: 36) ---
+Top 10 most frequent functions:
+signature_description
+Phage integrase, N-terminal SAM-like domain    1
+SmpB protein                                   1
+Peptidyl-tRNA hydrolase signature 1.           1
+Peptidyl-tRNA hydrolase                        1
+Ribosomal protein L13                          1
+Ribosomal protein L13 signature.               1
+
+-------------------------
+
+--- Cluster 218 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Mycoplasma protein of unknown function, DUF285                2
+Liste_lipo_26: bacterial surface protein 26-residue repeat    2
+Dynein heavy chain C-terminal domain                          1
+EF-hand calcium-binding domain.                               1
+
+-------------------------
+
+--- Cluster 219 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Gar1/Naf1 RNA binding region                         1
+Uncharacterized protein family UPF0023 signature.    1
+Shwachman-Bodian-Diamond syndrome (SBDS) protein     1
+Chorismate synthase                                  1
+
+-------------------------
+
+--- Cluster 220 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Ribosomal protein S14p/S29e         1
+Ribosomal protein S14 signature.    1
+ArgJ family                         1
+
+-------------------------
+
+--- Cluster 221 (Total Proteins: 52) ---
+Top 10 most frequent functions:
+signature_description
+EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)    1
+Acetyltransferase (GNAT) domain                                 1
+Sterol carrier protein domain                                   1
+Dehydrogenase E1 component                                      1
+Pyruvate kinase, barrel domain                                  1
+Rab-GTPase-TBC domain                                           1
+Methylmalonyl-CoA mutase                                        1
+Cation transporter/ATPase, N-terminus                           1
+jmjN domain                                                     1
+
+-------------------------
+
+--- Cluster 222 (Total Proteins: 25) ---
+Top 10 most frequent functions:
+signature_description
+Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain I    1
+MerR HTH family regulatory protein                                  1
+
+-------------------------
+
+--- Cluster 224 (Total Proteins: 36) ---
+Top 10 most frequent functions:
+signature_description
+Aminoacyl-transfer RNA synthetases class-I signature.    1
+tRNA synthetases class I (W and Y)                       1
+
+-------------------------
+
+--- Cluster 225 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+PPM-type phosphatase domain signature.    1
+Ribosomal protein S14 signature.          1
+Ribosomal protein S14p/S29e               1
+
+-------------------------
+
+--- Cluster 226 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Thiolase, C-terminal domain    1
+Thiolases active site.         1
+
+-------------------------
+
+--- Cluster 227 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+RibD C-terminal domain    1
+
+-------------------------
+
+--- Cluster 228 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Mercury scavenger protein signature    4
+Heavy-metal-associated domain          2
+Heavy-metal-associated domain.         1
+Sulfotransferase family                1
+
+-------------------------
+
+--- Cluster 231 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+tRNA pseudouridine synthase    1
+
+-------------------------
+
+--- Cluster 232 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Calcineurin-like phosphoesterase superfamily domain        1
+Calcineurin-like phosphoesterase                           1
+Phosphoribosyl synthetase-associated domain                1
+N-terminal domain of ribose phosphate pyrophosphokinase    1
+ribP_PPkin: ribose-phosphate diphosphokinase               1
+Phosphoribosyl pyrophosphate synthase signature.           1
+Eukaryotic phosphomannomutase                              1
+Phosphoribosyl transferase domain                          1
+pyrE: orotate phosphoribosyltransferase                    1
+
+-------------------------
+
+--- Cluster 234 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+tRNA synthetases class I (I, L, M and V)    1
+
+-------------------------
+
+--- Cluster 235 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+GTP-binding SAR1 protein signature                      4
+Von Willebrand factor type A domain signature           3
+TIGR00157: ribosome small subunit-dependent GTPase A    2
+RsgA GTPase                                             2
+ruvB: Holliday junction DNA helicase RuvB               1
+RuvB AAA lid domain                                     1
+Subunit ChlI of Mg-chelatase                            1
+Bacterial regulatory proteins, luxR family              1
+Holliday junction DNA helicase RuvB P-loop domain       1
+Magnesium chelatase, subunit ChlI                       1
+
+-------------------------
+
+--- Cluster 236 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+Transforming protein P21 ras signature         3
+ABC transporter                                3
+OMPA domain signature                          3
+Type III restriction enzyme, res subunit       2
+UvrD/REP helicase N-terminal domain            2
+Terminase-like family                          1
+Ras family                                     1
+small_GTP: small GTP-binding protein domain    1
+DnaB-like helicase C terminal domain           1
+Toprim-like                                    1
+
+-------------------------
+
+--- Cluster 237 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+NADPH-dependent FMN reductase             2
+Flavodoxin domain                         1
+Calcineurin-like phosphoesterase          1
+Diacylglycerol kinase catalytic domain    1
+Metallo-beta-lactamase superfamily        1
+
+-------------------------
+
+--- Cluster 238 (Total Proteins: 28) ---
+Top 10 most frequent functions:
+signature_description
+Pyridine nucleotide disulphide reductase class-II signature            6
+FAD-dependent pyridine nucleotide reductase signature                  3
+UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain       2
+Methyltransferase domain                                               2
+Methionine biosynthesis protein MetW                                   1
+metW: methionine biosynthesis protein MetW                             1
+NAD synthase                                                           1
+ABC transporter, phosphonate, periplasmic substrate-binding protein    1
+Glycosyl transferase family 2                                          1
+UbiG: 3-demethylubiquinone-9 3-O-methyltransferase                     1
+
+-------------------------
+
+--- Cluster 239 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Rieske 2Fe-2S subunit signature                                         5
+Rieske [2Fe-2S] domain                                                  4
+Ring hydroxylating dioxygenase alpha-subunit signature                  3
+Glutaredoxin signature                                                  3
+Thioredoxin family signature                                            3
+Thioredoxin-like                                                        2
+Glutaredoxin                                                            2
+AhpC/TSA family                                                         2
+Ubiquitinol-cytochrome C reductase Fe-S subunit TAT signal              2
+Rieske_proteo: ubiquinol-cytochrome c reductase, iron-sulfur subunit    2
+
+-------------------------
+
+--- Cluster 240 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+RecA protein signature                                                      2
+Biotin-requiring enzyme                                                     2
+2-oxo acid dehydrogenases acyltransferase component lipoyl binding site.    2
+Dynamin family                                                              1
+SpoU rRNA Methylase family                                                  1
+Oxidoreductase NAD-binding domain                                           1
+recA bacterial DNA recombination protein                                    1
+e3 binding domain                                                           1
+Glycosyl transferases group 1                                               1
+
+-------------------------
+
+--- Cluster 241 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+S21 class N4 adenine-specific DNA methyltransferase signature    10
+Glutamate methyltransferase family signature                      6
+fkbM_fam: methyltransferase, FkbM family                          4
+Methyltransferase FkbM domain                                     4
+DNA methylase                                                     3
+FAD dependent oxidoreductase                                      2
+Methyltransferase domain                                          2
+N-6 Adenine-specific DNA methylases signature.                    2
+CheR methyltransferase, SAM binding domain                        1
+CheR methyltransferase, all-alpha domain                          1
+
+-------------------------
+
+--- Cluster 242 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+Haloacid dehalogenase/epoxide hydrolase family signature    8
+Alpha/beta hydrolase fold signature                         5
+alpha/beta hydrolase fold                                   3
+Serine aminopeptidase, S33                                  3
+Epoxide hydrolase signature                                 3
+HAD-SF-IA-v3: HAD hydrolase, family IA, variant 3           2
+Haloacid dehalogenase-like hydrolase                        2
+Methyltransferase domain                                    1
+UbiG: 3-demethylubiquinone-9 3-O-methyltransferase          1
+Telomere recombination                                      1
+
+-------------------------
+
+--- Cluster 243 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+ABC transporter                                       1
+STAS domain                                           1
+ant_ant_sig: anti-anti-sigma factor                   1
+Type II/IV secretion system protein                   1
+RecF/RecN/SMC N terminal domain                       1
+Transketolase, thiamine diphosphate binding domain    1
+Methylmalonyl Co-A mutase-associated GTPase MeaB      1
+lao: LAO/AO transport system ATPase                   1
+Glycosyl transferases group 1                         1
+
+-------------------------
+
+--- Cluster 244 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial regulatory protein MarR family signature            4
+MerR bacterial regulatory protein HTH signature               3
+Bacterial general secretion pathway protein D signature       2
+MarR family                                                   2
+Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase       1
+DNA mismatch repair proteins mutL / hexB / PMS1 signature.    1
+FCD domain                                                    1
+Bacterial regulatory proteins, gntR family                    1
+Gram-negative bacterial TonB protein C-terminal               1
+Bacterial type II and III secretion system protein            1
+
+-------------------------
+
+--- Cluster 245 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+Shikimate kinase family signature          5
+Amidohydrolase family                      2
+Rhodanese-like domain                      1
+Protein of unknown function (DUF2892)      1
+Polymerase beta, Nucleotidyltransferase    1
+Cyclic nucleotide-binding domain           1
+Shikimate kinase signature.                1
+Shikimate kinase                           1
+FAD binding domain                         1
+Enoyl-CoA hydratase/isomerase              1
+
+-------------------------
+
+--- Cluster 246 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+TetR bacterial regulatory protein HTH signature    2
+Site-specific recombinases active site.            1
+Resolvase, N terminal domain                       1
+Tetracyclin repressor-like, C-terminal domain      1
+Bacterial regulatory proteins, tetR family         1
+Ferric uptake regulator family                     1
+Poly A polymerase head domain                      1
+TIGR00152: dephospho-CoA kinase                    1
+Dephospho-CoA kinase                               1
+Amidohydrolase                                     1
+
+-------------------------
+
+--- Cluster 247 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+NUDIX hydrolase family signature                                4
+Bacterial sensor protein C-terminal signature                   3
+Nudix box signature.                                            2
+NUDIX domain                                                    2
+Histidine kinase-like ATPase domain                             1
+Thiamine pyrophosphate enzyme, N-terminal TPP binding domain    1
+Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase         1
+
+-------------------------
+
+--- Cluster 248 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+Response regulator receiver domain                                           3
+STAS domain                                                                  2
+O-sialoglycoprotein endopeptidase (M22) metallo-protease family signature    2
+CBS domain                                                                   2
+Glycosyl transferase family 2                                                2
+ant_ant_sig: anti-anti-sigma factor                                          1
+Glycoprotease family                                                         1
+
+-------------------------
+
+--- Cluster 250 (Total Proteins: 106) ---
+Top 10 most frequent functions:
+signature_description
+LytB protein                                 1
+Transposase DDE domain                       1
+Endoplasmic reticulum vesicle transporter    1
+
+-------------------------
+
+--- Cluster 251 (Total Proteins: 34) ---
+Top 10 most frequent functions:
+signature_description
+Predicted transcriptional regulator (DUF2083)    1
+
+-------------------------
+
+--- Cluster 254 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Ribosomal protein S16               1
+S16: ribosomal protein bS16         1
+Ribosomal protein S16 signature.    1
+
+-------------------------
+
+--- Cluster 257 (Total Proteins: 23) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial sugar transferase                   1
+Gamma tubulin complex component C-terminal    1
+
+-------------------------
+
+--- Cluster 260 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Inositol 1,3,4-trisphosphate 5/6-kinase pre-ATP-grasp domain    1
+Intein splicing domain                                          1
+Glutathione S-transferase, N-terminal domain                    1
+N-6 Adenine-specific DNA methylases signature.                  1
+
+-------------------------
+
+--- Cluster 261 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+Reverse transcriptase (RNA-dependent DNA polymerase)           1
+Cytochrome P450                                                1
+AAA+ lid domain                                                1
+P-loop containing dynein motor region D4                       1
+Sigma-54 interaction domain ATP-binding region A signature.    1
+MutS family domain IV                                          1
+SpoVR like protein                                             1
+Succinylglutamate desuccinylase / Aspartoacylase family        1
+
+-------------------------
+
+--- Cluster 262 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Protein of unknown function TPD sequence-motif    1
+Bacterial protein of unknown function (DUF885)    1
+HDIG: HDIG domain                                 1
+
+-------------------------
+
+--- Cluster 263 (Total Proteins: 16) ---
+Top 10 most frequent functions:
+signature_description
+Tyrosyl-tRNA synthetase signature                   4
+Ribosomal silencing factor during starvation        1
+Archaeal holliday junction resolvase (hjc)          1
+Exodeoxyribonuclease V, gamma subunit               1
+zinc-binding in reverse transcriptase               1
+rsfS_iojap_ybeB: ribosome silencing factor          1
+Sugar fermentation stimulation protein RE domain    1
+SfsA N-terminal OB domain                           1
+Nitroreductase family                               1
+sfsA: sugar fermentation stimulation protein        1
+
+-------------------------
+
+--- Cluster 264 (Total Proteins: 24) ---
+Top 10 most frequent functions:
+signature_description
+MORN repeat                                                       11
+WD domain, G-beta repeat                                           4
+G protein beta WD-40 repeat signature                              3
+Ankyrin repeats (3 copies)                                         2
+Leucine-rich repeat signature                                      2
+RecQ mediated genome instability protein                           1
+PFU (PLAA family ubiquitin binding)                                1
+Recq-mediated genome instability protein 1, C-terminal OB-fold     1
+FKBP-type peptidyl-prolyl cis-trans isomerase                      1
+Ribosomal protein L11 methyltransferase (PrmA)                     1
+
+-------------------------
+
+--- Cluster 266 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+T4 bacteriophage base plate protein    1
+Thymidine kinase                       1
+
+-------------------------
+
+--- Cluster 267 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Myb-like DNA-binding domain    4
+MORN repeat                    4
+Oxysterol-binding protein      1
+Leucine rich repeat            1
+
+-------------------------
+
+--- Cluster 268 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Outer membrane lipoprotein-sorting protein    1
+Xylose isomerase-like TIM barrel              1
+Polymer-forming cytoskeletal                  1
+GYF domain 2                                  1
+Interferon-induced transmembrane protein      1
+
+-------------------------
+
+--- Cluster 269 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+Eukaryotic molybdopterin domain signature                          3
+rplD_bact: 50S ribosomal protein uL4                               1
+Ribosomal protein L4/L1 family                                     1
+Domain of unknown function                                         1
+Retinitis pigmentosa G-protein regulator interacting C-terminal    1
+Phosphatidylinositol-glycan biosynthesis class S protein           1
+Oxidoreductase molybdopterin binding domain                        1
+
+-------------------------
+
+--- Cluster 270 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+HMG-I and HMG-Y DNA-binding domain (A+T-hook).              1
+PDDEXK-like family of unknown function                      1
+Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD    1
+NAD binding domain of 6-phosphogluconate dehydrogenase      1
+
+-------------------------
+
+--- Cluster 271 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+CHORD                                        2
+Ribosomal Proteins L2, RNA binding domain    1
+Ribosomal Proteins L2, C-terminal domain     1
+Ribosomal protein L2 signature.              1
+rplB_bact: ribosomal protein uL2             1
+Enoyl-CoA hydratase/isomerase                1
+
+-------------------------
+
+--- Cluster 272 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+60s Acidic ribosomal protein    1
+
+-------------------------
+
+--- Cluster 273 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+WW/rsp5/WWP domain signature.    1
+
+-------------------------
+
+--- Cluster 274 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+Asparaginase, N-terminal                                 1
+DEAD/H associated                                        1
+Putative undecaprenyl diphosphate synthase               1
+uppS: di-trans,poly-cis-decaprenylcistransferase         1
+Undecaprenyl pyrophosphate synthase family signature.    1
+Queuosine biosynthesis protein QueC                      1
+Amino-transferase class IV                               1
+Domain of unknown function (DUF4147)                     1
+Isocitrate/isopropylmalate dehydrogenase                 1
+Protein of unknown function (DUF3110)                    1
+
+-------------------------
+
+--- Cluster 275 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+GTP-binding SAR1 protein signature               2
+rRNA-processing protein Efg1                     1
+Sodium:sulfate symporter transmembrane region    1
+ADP-ribosylation factor family                   1
+Dynamin GTPase effector domain                   1
+GNAT acetyltransferase, Mec-17                   1
+Domain of unknown function (DUF383)              1
+Tubulin binding cofactor C                       1
+Exonuclease VII, large subunit                   1
+
+-------------------------
+
+--- Cluster 276 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Domain of unknown function (DUF4384)    1
+Aluminium induced protein               1
+IPT/TIG domain                          1
+
+-------------------------
+
+--- Cluster 277 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+RNA polymerase III RPC4                      1
+CobW/HypB/UreG, nucleotide-binding domain    1
+Patatin-like phospholipase                   1
+
+-------------------------
+
+--- Cluster 278 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+CCCH-type zinc finger               1
+Zinc finger MYND-type signature.    1
+MYND finger                         1
+EF hand                             1
+EF-hand calcium-binding domain.     1
+
+-------------------------
+
+--- Cluster 279 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Seryl-tRNA synthetase signature                            5
+Region in Clathrin and VPS                                 2
+CAS/CSE protein, C-terminus                                1
+tRNA synthetase class II core domain (G, H, P, S and T)    1
+PH domain                                                  1
+
+-------------------------
+
+--- Cluster 281 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Glucose-6-phosphate isomerase signature    3
+Domain of unknown function (DUF2828)       2
+Phosphoglucose isomerase                   1
+Phosphoglucose isomerase signature 2.      1
+Cyclin, N-terminal domain                  1
+
+-------------------------
+
+--- Cluster 283 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Cyclophilin peptidyl-prolyl cis-trans isomerase signature        3
+Chaperone for flagella basal body P-ring formation               1
+flgA_cterm: flagella basal body P-ring formation protein FlgA    1
+UvrD/REP helicase N-terminal domain                              1
+Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD         1
+DNA_bind_WhiA: DNA-binding protein WhiA                          1
+WhiA LAGLIDADG-like domain                                       1
+IPP transferase                                                  1
+miaA: tRNA dimethylallyltransferase                              1
+AICARFT/IMPCHase bienzyme                                        1
+
+-------------------------
+
+--- Cluster 284 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Flagellar basal body rod FlgEFG protein C-terminal    3
+Zn-finger in Ran binding protein and others           1
+Zinc finger RanBP2-type signature.                    1
+FlgC: flagellar basal-body rod protein FlgC           1
+Bacterial flagellin C-terminal helical region         1
+
+-------------------------
+
+--- Cluster 285 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+GTP1/OBG                                2
+5'-nucleotidase signature 1.            1
+Domain of Unknown Function (DUF1080)    1
+
+-------------------------
+
+--- Cluster 286 (Total Proteins: 57) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial DNA polymerase III alpha NTPase domain    1
+Domain of Unknown Function (DUF1080)                1
+HD domain                                           1
+TIGR02246: conserved hypothetical protein           1
+Domain of unknown function (DUF4440)                1
+Chalcone isomerase-like                             1
+Glucose / Sorbosone dehydrogenase                   1
+Cytosolic carboxypeptidase N-terminal domain        1
+RNA polymerases M/15 Kd subunit                     1
+Adenylosuccinate synthetase                         1
+
+-------------------------
+
+--- Cluster 287 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+GIY-YIG catalytic domain             1
+Thioredoxin-like                     1
+Staphylococcal nuclease homologue    1
+Transglycosylase SLT domain          1
+
+-------------------------
+
+--- Cluster 288 (Total Proteins: 24) ---
+Top 10 most frequent functions:
+signature_description
+Inositol monophosphatase superfamily signature           3
+Integral membrane protein (DUF2244)                      1
+Inositol monophosphatase family signature 1.             1
+Inositol monophosphatase family                          1
+Cytochrome C biogenesis protein                          1
+Glycerate kinase family                                  1
+Methyltransferase FkbM domain                            1
+Thioredoxin                                              1
+Staphylococcal nuclease homologue                        1
+LytR cell envelope-related transcriptional attenuator    1
+
+-------------------------
+
+--- Cluster 289 (Total Proteins: 36) ---
+Top 10 most frequent functions:
+signature_description
+Senescence marker protein-30 (SMP30) family signature        2
+Clp amino terminal domain, pathogenicity island component    2
+non-haem dioxygenase in morphine synthesis N-terminal        1
+DXP reductoisomerase C-terminal domain                       1
+YceG-like family                                             1
+TIGR00247: conserved hypothetical protein, YceG family       1
+Outer membrane lipoprotein carrier protein LolA              1
+TRAM domain                                                  1
+C-methyltransferase C-terminal domain                        1
+Domain of unknown function (DUF4115)                         1
+
+-------------------------
+
+--- Cluster 290 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Malic enzyme, NAD binding domain                       1
+Carbamoyltransferase N-terminus                        1
+D12 class N6 adenine-specific DNA methyltransferase    1
+
+-------------------------
+
+--- Cluster 291 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Ornithine/diaminopimelate/arginine (ODA) decarboxylase family signature    2
+Amino-transferase class IV                                                 1
+Cys/Met metabolism PLP-dependent enzyme                                    1
+Pyridoxal-dependent decarboxylase, pyridoxal binding domain                1
+Pyridoxal-dependent decarboxylase, C-terminal sheet domain                 1
+
+-------------------------
+
+--- Cluster 292 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+FIS bacterial regulatory protein HTH signature         2
+Mur ligase middle domain                               1
+Bacterial regulatory protein, Fis family               1
+Lipopolysaccharide export system permease LptF/LptG    1
+MlaC protein                                           1
+
+-------------------------
+
+--- Cluster 293 (Total Proteins: 30) ---
+Top 10 most frequent functions:
+signature_description
+Uncharacterised protein family UPF0564    1
+Glutaminase                               1
+
+-------------------------
+
+--- Cluster 295 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Tyrosyl-tRNA synthetase signature                              3
+6-pyruvoyl tetrahydropterin synthase                           2
+Transcriptional regulator                                      1
+Ubiquitin carboxyl-terminal hydrolase                          1
+Class II vitamin B12-dependent ribonucleotide reductase        1
+TIGR01033: DNA-binding regulatory protein, YebC/PmpR family    1
+Glutamine synthetase, beta-Grasp domain                        1
+tyrS: tyrosine--tRNA ligase                                    1
+tRNA synthetases class I (W and Y)                             1
+Glutamate-cysteine ligase family 2(GCS2)                       1
+
+-------------------------
+
+--- Cluster 296 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Aconitase family signature                            4
+Hydantoinase/oxoprolinase                             1
+Protein of unknown function (DUF499)                  1
+Thymidylate synthase complementing protein            1
+HTH domain                                            1
+DeoR-type HTH domain signature.                       1
+WYL domain                                            1
+dnan: DNA polymerase III, beta subunit                1
+DNA polymerase III beta subunit, N-terminal domain    1
+DNA polymerase III beta subunit, central domain       1
+
+-------------------------
+
+--- Cluster 297 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Ribonuclease T2 family                             1
+Ribonuclease T2 family histidine active site 1.    1
+
+-------------------------
+
+--- Cluster 299 (Total Proteins: 37) ---
+Top 10 most frequent functions:
+signature_description
+ATP synthase                                        1
+PIN domain                                          1
+Aminopeptidase P, N-terminal domain                 1
+ChaC-like protein                                   1
+HECT-domain (ubiquitin-transferase)                 1
+Transglycosylase SLT domain                         1
+Large-conductance mechanosensitive channel, MscL    1
+Protein of unknown function (DUF3572)               1
+
+-------------------------
+
+--- Cluster 303 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Glyoxalase-like domain                                  1
+NuoC_fam: NADH (or F420H2) dehydrogenase, subunit C     1
+Respiratory-chain NADH dehydrogenase, 30 Kd subunit     1
+Amidinotransferase                                      1
+Glycosyltransferase family 9 (heptosyltransferase)      1
+Histidine phosphatase superfamily (branch 1)            1
+Sulfatase-modifying factor enzyme 1                     1
+Glutamate-cysteine ligase family 2(GCS2)                1
+GcpE protein                                            1
+Prokaryotic glutathione synthetase, ATP-grasp domain    1
+
+-------------------------
+
+--- Cluster 304 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Bacteriophage translational regulator    1
+
+-------------------------
+
+--- Cluster 305 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Alcohol dehydrogenase GroES-like domain                          2
+Polysaccharide deacetylase                                       1
+Ribonuclease E/G family                                          1
+Putative modulator of DNA gyrase                                 1
+Protein of unknown function (DUF563)                             1
+Deoxyhypusine synthase                                           1
+ATP_dep_HslV: ATP-dependent protease HslVU, peptidase subunit    1
+Proteasome subunit                                               1
+Histone deacetylase domain                                       1
+
+-------------------------
+
+--- Cluster 306 (Total Proteins: 19) ---
+Top 10 most frequent functions:
+signature_description
+Carboxypeptidase Taq (M32) metallopeptidase signature    2
+EF-hand calcium-binding domain.                          2
+Transaldolase/Fructose-6-phosphate aldolase              1
+Bacteriophage T4-like capsid assembly protein (Gp20)     1
+SNF2 family N-terminal domain                            1
+Transaldolase signature 1.                               1
+Carboxypeptidase Taq (M32) metallopeptidase              1
+AMIN domain                                              1
+Transketolase, pyrimidine binding domain                 1
+Transketolase, C-terminal domain                         1
+
+-------------------------
+
+--- Cluster 307 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+DNA gyrase/topoisomerase IV, subunit A                 1
+Aminomethyltransferase folate-binding domain           1
+Glycine cleavage T-protein C-terminal barrel domain    1
+CheW-like domain                                       1
+C-terminal, D2-small domain, of ClpB protein           1
+tRNA synthetases class II (A)                          1
+
+-------------------------
+
+--- Cluster 308 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Coprogen oxidase signature                   5
+Coproporphyrinogen III oxidase               1
+Coproporphyrinogen III oxidase signature.    1
+FabA-like domain                             1
+Domain of unknown function (DUF5060)         1
+Protein of unknown function (DUF4038)        1
+
+-------------------------
+
+--- Cluster 309 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Succinyl-CoA synthase signature                                    3
+Malic enzyme, N-terminal domain                                    2
+Ribosomal protein L10                                              1
+CoA-ligase                                                         1
+ATP-citrate lyase / succinyl-CoA ligases family active site.       1
+Queuine tRNA-ribosyltransferase                                    1
+ATP-citrate lyase / succinyl-CoA ligases family signature 1.       1
+tgt_general: tRNA-guanine family transglycosylase                  1
+Electron transfer flavoprotein domain                              1
+Formylglycinamide ribonucleotide amidotransferase linker domain    1
+
+-------------------------
+
+--- Cluster 311 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Ribokinase signature                              2
+Domain of unknown function DUF302                 1
+Protein of unknown function (DUF1499)             1
+Aminotransferase class-V                          1
+pfkB family carbohydrate kinase                   1
+Protein of unknown function (DUF3727)             1
+msrA: peptide-methionine (S)-S-oxide reductase    1
+Peptide methionine sulfoxide reductase            1
+
+-------------------------
+
+--- Cluster 312 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Tryptophanyl-tRNA synthetase signature                   3
+Coenzyme A transferase                                   1
+Aminoacyl-transfer RNA synthetases class-I signature.    1
+tRNA synthetases class I (W and Y)                       1
+trpS: tryptophan--tRNA ligase                            1
+IstB-like ATP binding protein                            1
+Dihydrodipicolinate reductase signature.                 1
+Dihydrodipicolinate reductase, C-terminus                1
+dapB: 4-hydroxy-tetrahydrodipicolinate reductase         1
+ParE toxin of type II toxin-antitoxin system, parDE      1
+
+-------------------------
+
+--- Cluster 313 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Seryl-tRNA synthetase signature                                5
+Peptidase family M3                                            1
+TIGR00006: 16S rRNA (cytosine(1402)-N(4))-methyltransferase    1
+DnaA N-terminal domain                                         1
+MraW methylase family                                          1
+tRNA synthetase class II core domain (G, H, P, S and T)        1
+Nitrile reductase, 7-cyano-7-deazaguanine-reductase N-term     1
+QueF-like protein                                              1
+LeuA allosteric (dimerisation) domain                          1
+Ubiquitin carboxyl-terminal hydrolase                          1
+
+-------------------------
+
+--- Cluster 314 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Cytochrome c-type biogenesis protein CcmF C-terminal       1
+Succinylglutamate desuccinylase / Aspartoacylase family    1
+Drought induced 19 protein (Di19), zinc-binding            1
+Ring finger domain                                         1
+Isochorismatase family                                     1
+Domain of unknown function (DUF4442)                       1
+Aldose 1-epimerase                                         1
+FYVE zinc finger                                           1
+
+-------------------------
+
+--- Cluster 316 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+The ARF-like 2 binding protein BART      1
+Antibiotic biosynthesis monooxygenase    1
+S1 RNA binding domain                    1
+
+-------------------------
+
+--- Cluster 317 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+Limonene-1,2-epoxide hydrolase catalytic domain    1
+Cupin superfamily (DUF985)                         1
+PCRF domain                                        1
+C-terminal, D2-small domain, of ClpB protein       1
+Archease protein family (MTH1598/TM1083)           1
+Putative heavy-metal-binding                       1
+
+-------------------------
+
+--- Cluster 318 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Glycine zipper 2TM domain    1
+
+-------------------------
+
+--- Cluster 319 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+Histidinol dehydrogenase signature       4
+Pyruvate kinase family signature         3
+Lumazine binding domain                  2
+TRCF domain                              1
+Helicase conserved C-terminal domain     1
+Prephenate dehydratase                   1
+AcrB/AcrD/AcrF family                    1
+HMGL-like                                1
+Pyruvate kinase, barrel domain           1
+LeuA allosteric (dimerisation) domain    1
+
+-------------------------
+
+--- Cluster 320 (Total Proteins: 20) ---
+Top 10 most frequent functions:
+signature_description
+DnaJ domain signature                       3
+GH3 auxin-responsive promoter               1
+AraC-binding-like domain                    1
+Stage II sporulation protein                1
+PLAT/LH2 domain                             1
+Adenylosuccinate synthetase active site.    1
+Adenylosuccinate synthetase                 1
+purA: adenylosuccinate synthase             1
+Riboflavin kinase                           1
+Centriolar protein SAS N-terminal           1
+
+-------------------------
+
+--- Cluster 321 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+Staphylococcal nuclease homologue                   1
+Lamin Tail Domain                                   1
+Taurine catabolism dioxygenase TauD, TfdA family    1
+GDP-fucose protein O-fucosyltransferase             1
+PEGA domain                                         1
+Centrosomal spindle body, CEP44                     1
+Aldo/keto reductase family                          1
+Shikimate kinase                                    1
+Sulfotransferase family                             1
+D-Tyr-tRNA(Tyr) deacylase                           1
+
+-------------------------
+
+--- Cluster 322 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Pyridoxal-phosphate dependent enzyme                                1
+FAD dependent oxidoreductase                                        1
+NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase    1
+Elongation factor Tu domain 2                                       1
+Elongation factor Tu C-terminal domain                              1
+Elongation factor Tu GTP binding domain                             1
+Primase C terminal 2 (PriCT-2)                                      1
+FAD binding domain                                                  1
+
+-------------------------
+
+--- Cluster 323 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Inositol monophosphatase superfamily signature               3
+SuhB family inositol monophosphatase signature               2
+Carbon-nitrogen hydrolase                                    1
+Hypothetical hesB/yadR/yfhF family signature.                1
+Nudix hydrolase domain                                       1
+Iron-sulphur cluster biosynthesis                            1
+TIGR00049: iron-sulfur cluster assembly accessory protein    1
+GMP synthase C terminal domain                               1
+ABC1 family                                                  1
+Inositol monophosphatase family signature 1.                 1
+
+-------------------------
+
+--- Cluster 324 (Total Proteins: 42) ---
+Top 10 most frequent functions:
+signature_description
+Major sigma-70 factor signature                          3
+GatB domain                                              2
+Valyl-tRNA synthetase signature                          2
+Aminoacyl tRNA synthetase class II, N-terminal domain    1
+HhH-GPD superfamily base excision DNA repair protein     1
+RmuC family                                              1
+Bacteriophage clamp loader A subunit                     1
+Recombination, repair and ssDNA binding protein UvsY     1
+2OG-Fe(II) oxygenase superfamily                         1
+UPF0113 Pre-PUA domain                                   1
+
+-------------------------
+
+--- Cluster 325 (Total Proteins: 52) ---
+Top 10 most frequent functions:
+signature_description
+Phosphopantetheine attachment site                    1
+Beta-ketoacyl synthase, N-terminal domain             1
+AAA domain (dynein-related subfamily)                 1
+FMN-dependent dehydrogenase                           1
+Mycolic acid cyclopropane synthetase                  1
+SCP-2 sterol transfer family                          1
+Prokaryotic homologs of the JAB domain                1
+MazG nucleotide pyrophosphohydrolase domain           1
+Vacuolar-sorting-associated 13 protein C-terminal     1
+Microsomal signal peptidase 25 kDa subunit (SPC25)    1
+
+-------------------------
+
+--- Cluster 326 (Total Proteins: 134) ---
+Top 10 most frequent functions:
+signature_description
+HupF/HypC hydrogenase expression/synthesis family signature    4
+70kDa heat shock protein signature                             3
+Ribosomal protein S12 signature                                3
+Yqey-like protein                                              2
+Acyl-CoA dehydrogenase, N-terminal domain                      2
+HMGL-like                                                      1
+PHD-finger                                                     1
+Macrophage migration inhibitory factor (MIF)                   1
+FliG N-terminal domain                                         1
+DUF218 domain                                                  1
+
+-------------------------
+
+--- Cluster 327 (Total Proteins: 14) ---
+Top 10 most frequent functions:
+signature_description
+Acyl-CoA dehydrogenase, N-terminal domain                      1
+Antidote-toxin recognition MazE, bacterial antitoxin           1
+RNA transcription, translation and transport factor protein    1
+L29: ribosomal protein uL29                                    1
+Ribosomal L29 protein                                          1
+Protein of unknown function (DUF3467)                          1
+
+-------------------------
+
+--- Cluster 328 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Aspartate/ornithine carbamoyltransferase superfamily signature      2
+EF-hand calcium-binding domain.                                     1
+Domain of unknown function (DUF4416)                                1
+Aspartate/ornithine carbamoyltransferase, Asp/Orn binding domain    1
+Thymidylate synthase complementing protein                          1
+thyX: thymidylate synthase, flavin-dependent                        1
+
+-------------------------
+
+--- Cluster 329 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+Leucine Rich repeat                   5
+Leucine-rich repeat                   2
+HEAT repeat                           1
+Armadillo/beta-catenin-like repeat    1
+
+-------------------------
+
+--- Cluster 330 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+Fumarate reductase flavoprotein C-term    1
+Glycosyl hydrolases family 16             1
+Cyclin, N-terminal domain                 1
+JmjC domain, hydroxylase                  1
+Domain of unknown function (DUF1704)      1
+
+-------------------------
+
+--- Cluster 331 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+DNA gyrase C-terminal domain, beta-propeller    6
+Alanyl-tRNA synthetase signature                2
+Malate/L-lactate dehydrogenase                  1
+Domain of unknown function (DUF697)             1
+Putative modulator of DNA gyrase                1
+Peptidase C39 family                            1
+tRNA synthetases class II (A)                   1
+
+-------------------------
+
+--- Cluster 332 (Total Proteins: 20) ---
+Top 10 most frequent functions:
+signature_description
+Protein of unknown function (DUF445)                         2
+Bacteriophage T4-like capsid assembly protein (Gp20)         1
+Sulfatase-modifying factor enzyme 1                          1
+Mitochondrial ATP synthase B chain precursor (ATP-synt_B)    1
+N-acetylmuramoyl-L-alanine amidase                           1
+Protein of unknown function (DUF1553)                        1
+Reticulon                                                    1
+Phosphodiester glycosidase                                   1
+
+-------------------------
+
+--- Cluster 333 (Total Proteins: 23) ---
+Top 10 most frequent functions:
+signature_description
+Citrate synthase signature                            6
+Argininosuccinate lyase family signature              6
+Fumarate lyase superfamily signature                  4
+HEAT repeats                                          2
+Class II Aldolase and Adducin N-terminal domain       1
+Squalene/phytoene synthase                            1
+ATP:guanido phosphotransferase, N-terminal domain     1
+Squalene and phytoene synthases signature 2.          1
+Cobalamin synthesis protein cobW C-terminal domain    1
+Lyase                                                 1
+
+-------------------------
+
+--- Cluster 334 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+Protein of unknown function (DUF1214)    1
+Protein of unknown function (DUF1254)    1
+Peptidase M16 inactive domain            1
+Insulinase (Peptidase family M16)        1
+Dyp-type peroxidase family               1
+CoA-transferase family III               1
+Domain of unknown function (DUF3418)     1
+
+-------------------------
+
+--- Cluster 335 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Iron-containing redox enzyme                     1
+PEGA domain                                      1
+FKBP-type peptidyl-prolyl cis-trans isomerase    1
+AcrB/AcrD/AcrF family                            1
+RDD family                                       1
+
+-------------------------
+
+--- Cluster 336 (Total Proteins: 19) ---
+Top 10 most frequent functions:
+signature_description
+Leucine Rich repeat                                        4
+Cyclin, N-terminal domain                                  1
+Vps16, N-terminal region                                   1
+myb_SHAQKYF: myb-like DNA-binding domain, SHAQKYF class    1
+Ankyrin repeats (3 copies)                                 1
+Cyclic nucleotide-binding domain                           1
+ABC transporter                                            1
+Ankyrin repeats (many copies)                              1
+Uncharacterized ACR, YdiU/UPF0061 family                   1
+Possible lysine decarboxylase                              1
+
+-------------------------
+
+--- Cluster 337 (Total Proteins: 36) ---
+Top 10 most frequent functions:
+signature_description
+Acetyl-CoA carboxylase carboxyl transferase alpha subunit signature    6
+Ubiquitin signature                                                    3
+recA bacterial DNA recombination protein                               2
+2-oxoacid dehydrogenases acyltransferase (catalytic domain)            1
+Caudovirus prohead serine protease                                     1
+[2Fe-2S] binding domain                                                1
+Phosphate acetyl/butaryl transferase                                   1
+S-adenosyl-L-homocysteine hydrolase signature 1.                       1
+S-adenosyl-L-homocysteine hydrolase                                    1
+S-adenosyl-L-homocysteine hydrolase, NAD binding domain                1
+
+-------------------------
+
+--- Cluster 338 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+Gamma-glutamyltranspeptidase signature                             4
+Ribonucleotide reductase large chain signature                     3
+Tailless complex polypeptide 1 (chaperone) signature               2
+Ribonucleotide reductase, barrel domain                            2
+SLBB domain                                                        1
+RNA polymerase Rpb2, domain 2                                      1
+RNA polymerase beta subunit                                        1
+Respiratory-chain NADH dehydrogenase 51 Kd subunit signature 1.    1
+lactate/malate dehydrogenase, alpha/beta C-terminal domain         1
+Phosphatidylserine decarboxylase                                   1
+
+-------------------------
+
+--- Cluster 339 (Total Proteins: 35) ---
+Top 10 most frequent functions:
+signature_description
+GUN4-like                                  1
+Mannose-6-phosphate receptor               1
+Phosphohydrolase-associated domain         1
+Vps53-like, N-terminal                     1
+RecF/RecN/SMC N terminal domain            1
+ADP-ribosylation factor family             1
+PDZ domain                                 1
+Spb1 C-terminal domain                     1
+Tuftelin interacting protein N terminal    1
+G-patch domain                             1
+
+-------------------------
+
+--- Cluster 340 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+FGGY family of carbohydrate kinases signature 1.          1
+FGGY family of carbohydrate kinases, N-terminal domain    1
+FGGY family of carbohydrate kinases, C-terminal domain    1
+rpsD_bact: ribosomal protein uS4                          1
+S4 domain                                                 1
+Ribosomal protein S4/S9 N-terminal domain                 1
+2-oxoglutarate dehydrogenase N-terminus                   1
+
+-------------------------
+
+--- Cluster 341 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Inositol monophosphatase superfamily signature            4
+Histidinol dehydrogenase signature                        4
+Histidinol dehydrogenase                                  1
+Malic enzyme, NAD binding domain                          1
+Acyl-CoA dehydrogenase, middle domain                     1
+Acyl-CoA dehydrogenase, N-terminal domain                 1
+Poly(ADP-ribose) polymerase catalytic domain              1
+Molybdopterin-binding domain of aldehyde dehydrogenase    1
+Inositol monophosphatase family                           1
+Anticodon binding domain                                  1
+
+-------------------------
+
+--- Cluster 342 (Total Proteins: 42) ---
+Top 10 most frequent functions:
+signature_description
+Methionine aminopeptidase-1 signature      4
+Kinesin heavy chain signature              3
+RNA polymerase I, Rpa2 specific domain     2
+Cold shock protein signature               2
+Dynein heavy chain AAA lid domain          2
+RNA polymerase Rpb2, domain 3              1
+Rieske [2Fe-2S] domain                     1
+SNF2 family N-terminal domain              1
+Putative zinc- or iron-chelating domain    1
+Helicase conserved C-terminal domain       1
+
+-------------------------
+
+--- Cluster 343 (Total Proteins: 28) ---
+Top 10 most frequent functions:
+signature_description
+Haem oxygenase signature                                          6
+Neprilysin metalloprotease (M13) family signature                 4
+Aspartate carbamoyltransferase signature                          3
+Lumazine binding domain                                           2
+Aspartate/ornithine carbamoyltransferase superfamily signature    2
+Heme oxygenase signature.                                         1
+Heme oxygenase                                                    1
+Terminase RNaseH-like domain                                      1
+Phage integrase SAM-like domain                                   1
+Protein of unknown function (DUF1552)                             1
+
+-------------------------
+
+--- Cluster 344 (Total Proteins: 33) ---
+Top 10 most frequent functions:
+signature_description
+Ribosomal protein L16 signature                                4
+Domain of unknown function (4846)                              2
+Ribosomal protein S9 signature.                                2
+Ribosomal protein S9/S16                                       2
+Ribosomal L18 of archaea, bacteria, mitoch. and chloroplast    1
+L18_bact: ribosomal protein uL18                               1
+Gp5 N-terminal OB domain                                       1
+Purine nucleoside permease (NUP)                               1
+Ribosomal protein L16p/L10e                                    1
+Ribosomal protein L16 signature 1.                             1
+
+-------------------------
+
+--- Cluster 345 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Nitrogenase component 1 type Oxidoreductase    1
+Penicillin amidase                             1
+SPFH domain / Band 7 family                    1
+
+-------------------------
+
+--- Cluster 346 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Acyl-CoA dehydrogenase, C-terminal domain             1
+Transketolase, pyrimidine binding domain              1
+Transketolase, thiamine diphosphate binding domain    1
+Ribosomal protein S4 signature.                       1
+Ribosomal protein S4/S9 N-terminal domain             1
+rpsD_bact: ribosomal protein uS4                      1
+S4 domain                                             1
+Glutamine cyclotransferase                            1
+Polyphosphate kinase 2 (PPK2)                         1
+Thioredoxin-like [2Fe-2S] ferredoxin                  1
+
+-------------------------
+
+--- Cluster 347 (Total Proteins: 15) ---
+Top 10 most frequent functions:
+signature_description
+Flagellin signature                                   3
+Flagellar hook capping protein - N-terminal region    1
+FlgD Ig-like domain                                   1
+Bacterial flagellin C-terminal helical region         1
+Bacterial flagellin N-terminal helical region         1
+Chlorophyll A-B binding protein                       1
+
+-------------------------
+
+--- Cluster 348 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Chlorophyll A-B binding protein    1
+
+-------------------------
+
+--- Cluster 349 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Molybdenum Cofactor Synthesis C         1
+Domain of unknown function (DUF1995)    1
+DDE superfamily endonuclease            1
+Integrase core domain                   1
+Mu transposase, C-terminal              1
+
+-------------------------
+
+--- Cluster 350 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+DNA gyrase subunit B signature                        6
+DNA topoisomerase II family signature                 4
+ATP synthase delta subunit signature                  3
+B-class P450 signature                                3
+ATP_synt_delta: ATP synthase F1, delta subunit        1
+Hydrolytic ATP binding site of dynein motor region    1
+WYL domain                                            1
+ATP synthase delta (OSCP) subunit                     1
+SecA Wing and Scaffold domain                         1
+RF-1 domain                                           1
+
+-------------------------
+
+--- Cluster 351 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+TIGR00281: segregation and condensation protein B    1
+Segregation and condensation complex subunit ScpB    1
+AAA domain                                           1
+bioD: dethiobiotin synthase                          1
+Bacterial regulatory protein, Fis family             1
+RmuC family                                          1
+
+-------------------------
+
+--- Cluster 352 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Ribosomal protein S17 family signature                    3
+Prokaryotic integration host factor signature             3
+CG-1 domain                                               1
+Ribosomal protein S17 signature.                          1
+uS17_bact: ribosomal protein uS17                         1
+Ribosomal protein S9 signature.                           1
+Ribosomal protein S17                                     1
+Ribosomal protein S9/S16                                  1
+Bacterial histone-like DNA-binding proteins signature.    1
+Bacterial DNA-binding protein                             1
+
+-------------------------
+
+--- Cluster 353 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+Ribosomal protein S12 signature      6
+Ribosomal protein L27 signature      3
+Flagellin signature                  3
+Ribosomal protein S12/S23            1
+Helix-turn-helix domain              1
+Ribosomal L27 protein                1
+rpsL_bact: ribosomal protein uS12    1
+Ribosomal protein S12 signature.     1
+Ribosomal protein L27 signature.     1
+L27: ribosomal protein bL27          1
+
+-------------------------
+
+--- Cluster 354 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+CHASE2 domain                          1
+T4 bacteriophage base plate protein    1
+
+-------------------------
+
+--- Cluster 355 (Total Proteins: 17) ---
+Top 10 most frequent functions:
+signature_description
+Major sigma-70 factor signature                              14
+sigma70-ECF: RNA polymerase sigma factor, sigma-70 family     5
+Sigma-70 region 2                                             4
+Sigma-70, region 4                                            3
+Sigma-70 factors family signature 1.                          2
+Sigma-70 factors family signature 2.                          2
+Bacterial leader peptidase 1 (S26A) family signature          2
+Isocitrate lyase family                                       2
+Transposase                                                   1
+Gene 25-like lysozyme                                         1
+
+-------------------------
+
+--- Cluster 356 (Total Proteins: 20) ---
+Top 10 most frequent functions:
+signature_description
+Ribosomal protein S2 signature                   4
+MacB-like periplasmic core domain                1
+RNA polymerase Rpb2, domain 6                    1
+Uncharacterised nucleotidyltransferase           1
+Coproporphyrinogen III oxidase                   1
+Ribosomal protein S2                             1
+Ribosomal protein S2 signature 2.                1
+rpsB_bact: ribosomal protein uS2                 1
+Electron transfer flavoprotein domain            1
+3,4-dihydroxy-2-butanone 4-phosphate synthase    1
+
+-------------------------
+
+--- Cluster 358 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Nif11 domain                                        1
+ocin_TIGR03798: nif11-like leader peptide domain    1
+Sigma-70 factor, region 1.1                         1
+
+-------------------------
+
+--- Cluster 359 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial membrane protein N terminal    1
+hflK: HflK protein                       1
+SPFH domain / Band 7 family              1
+
+-------------------------
+
+--- Cluster 360 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Enolase signature                                     3
+Acyl-CoA dehydrogenase, C-terminal domain             1
+Acyl-CoA dehydrogenases signature 2.                  1
+Enolase, C-terminal TIM barrel domain                 1
+Enolase, N-terminal domain                            1
+FAD binding domain                                    1
+Protein of unknown function (DUF3352)                 1
+Aldehyde dehydrogenases cysteine active site.         1
+Aldehyde dehydrogenases glutamic acid active site.    1
+Aldehyde dehydrogenase family                         1
+
+-------------------------
+
+--- Cluster 361 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial sec-independent translocation TatB protein signature    3
+mttA/Hcf106 family                                                1
+ATP synthase alpha/beta family, nucleotide-binding domain         1
+T3SS EscN ATPase C-terminal domain                                1
+
+-------------------------
+
+--- Cluster 362 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Serine hydroxymethyltransferase     1
+Ribosomal protein L14 signature.    1
+Ribosomal protein L14p/L23e         1
+
+-------------------------
+
+--- Cluster 363 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Cold shock protein signature                            5
+Tyrosine kinase catalytic domain signature              2
+'Cold-shock' DNA-binding domain                         2
+Protein of unknown function (DUF3553)                   1
+Haloacid dehalogenase-like hydrolase                    1
+Translation initiation factor 1A / IF-1                 1
+infA: translation initiation factor IF-1                1
+HAD-hyrolase-like                                       1
+AAA domain, putative AbiEii toxin, Type IV TA system    1
+Protein tyrosine kinase                                 1
+
+-------------------------
+
+--- Cluster 364 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+Stage V sporulation protein S (SpoVS)                              2
+UvrB/uvrC motif                                                    1
+Protein of unknown function (DUF1178)                              1
+Glycosyl transferase family 11                                     1
+EthD domain                                                        1
+CobW/HypB/UreG, nucleotide-binding domain                          1
+Dihydroxy-acid and 6-phosphogluconate dehydratases signature 2.    1
+Dehydratase family                                                 1
+ACT domain                                                         1
+acolac_sm: acetolactate synthase, small subunit                    1
+
+-------------------------
+
+--- Cluster 365 (Total Proteins: 30) ---
+Top 10 most frequent functions:
+signature_description
+RecA protein signature                      3
+Ankyrin repeat signature                    2
+Uncharacterized ACR, COG1678                1
+Tocopherol cyclase                          1
+recA bacterial DNA recombination protein    1
+Peroxidase                                  1
+Ribosomal protein L3                        1
+Ankyrin repeat                              1
+Dynein heavy chain, N-terminal region 1     1
+Hydantoinase/oxoprolinase                   1
+
+-------------------------
+
+--- Cluster 366 (Total Proteins: 10) ---
+Top 10 most frequent functions:
+signature_description
+FAD linked oxidases, C-terminal domain    1
+PQQ-like domain                           1
+Zinc-binding dehydrogenase                1
+Histidinol dehydrogenase                  1
+Dehydrogenase E1 component                1
+
+-------------------------
+
+--- Cluster 367 (Total Proteins: 13) ---
+Top 10 most frequent functions:
+signature_description
+7Fe ferredoxin signature                                        3
+Bacteriophage translational regulator                           1
+Translation-initiation factor 2                                 1
+4Fe-4S binding domain                                           1
+4Fe-4S ferredoxin-type iron-sulfur binding region signature.    1
+
+-------------------------
+
+--- Cluster 368 (Total Proteins: 79) ---
+Top 10 most frequent functions:
+signature_description
+Aspartate carbamoyltransferase signature                          3
+Tetrahydrofolate dehydrogenase/cyclohydrolase family signature    3
+Glucosamine-6-phosphate isomerases/6-phosphogluconolactonase      1
+RNA methyltransferase                                             1
+Aminotransferase class-III                                        1
+Initiation factor 2 subunit family                                1
+YacP-like NYN domain                                              1
+TIGR00046: RNA methyltransferase, RsmE family                     1
+SmpA / OmlA family                                                1
+Gene 25-like lysozyme                                             1
+
+-------------------------
+
+--- Cluster 369 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Fungal protein of unknown function (DUF1752)             1
+Centriolar protein SAS N-terminal                        1
+Initiation factor 3 signature.                           1
+infC: translation initiation factor IF-3                 1
+Translation initiation factor IF-3, N-terminal domain    1
+Translation initiation factor IF-3, C-terminal domain    1
+
+-------------------------
+
+--- Cluster 370 (Total Proteins: 40) ---
+Top 10 most frequent functions:
+signature_description
+Coprogen oxidase signature                             3
+Gp5 N-terminal OB domain                               2
+Ribosomal protein L6 signature                         2
+Bacterial trigger factor protein (TF) C-terminus       2
+Adaptor complexes medium subunit family                1
+Ribosomal protein L6                                   1
+Glycine cleavage T-protein C-terminal barrel domain    1
+Major capsid protein Gp23                              1
+Malate synthase                                        1
+Chromosome segregation protein Spc25                   1
+
+-------------------------
+
+--- Cluster 371 (Total Proteins: 33) ---
+Top 10 most frequent functions:
+signature_description
+TonB-dependent Receptor Plug Domain                         1
+Nitroreductase family                                       1
+Uracil phosphoribosyltransferase                            1
+D-Tyr-tRNA(Tyr) deacylase                                   1
+TruB family pseudouridylate synthase (N terminal domain)    1
+Virus neck protein                                          1
+Alanine dehydrogenase/PNT, C-terminal domain                1
+Glutamine synthetase, catalytic domain                      1
+
+-------------------------
+
+--- Cluster 372 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Aminopeptidase I zinc metalloprotease (M18) signature    2
+Major capsid protein Gp23                                2
+nuoB_fam: NADH-quinone oxidoreductase, B subunit         1
+NADH ubiquinone oxidoreductase, 20 Kd subunit            1
+Deacetylase PdaC                                         1
+E1-E2 ATPase                                             1
+Protein of unknown function (DUF3298)                    1
+Domain of unknown function (DUF4115)                     1
+Aminopeptidase I zinc metalloprotease (M18)              1
+Ribonucleotide reductase, barrel domain                  1
+
+-------------------------
+
+--- Cluster 373 (Total Proteins: 26) ---
+Top 10 most frequent functions:
+signature_description
+Protein of unknown function (DUF3764)       2
+Uncharacterised protein family (UPF0149)    1
+Glu-tRNAGln amidotransferase C subunit      1
+
+-------------------------
+
+--- Cluster 374 (Total Proteins: 16) ---
+Top 10 most frequent functions:
+signature_description
+Phosphoglycerate kinase family signature               6
+Phosphoglycerate kinase                                2
+Transketolase, C-terminal domain                       2
+S-adenosyl-L-homocysteine hydrolase                    1
+DNA / pantothenate metabolism flavoprotein             1
+Amino acid kinase family                               1
+Aspartokinase signature.                               1
+NAD(P)H-binding                                        1
+Acyl-CoA dehydrogenase, N-terminal domain              1
+6-phosphogluconate dehydrogenase, C-terminal domain    1
+
+-------------------------
+
+--- Cluster 375 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Prokaryotic integration host factor signature                2
+Acyl-CoA dehydrogenase, C-terminal domain                    1
+TIGR00049: iron-sulfur cluster assembly accessory protein    1
+Iron-sulphur cluster biosynthesis                            1
+Bacterial histone-like DNA-binding proteins signature.       1
+Hypothetical hesB/yadR/yfhF family signature.                1
+Bacterial DNA-binding protein                                1
+TLD                                                          1
+YbaB/EbfC DNA-binding family                                 1
+DNA_YbaB_EbfC: DNA-binding protein, YbaB/EbfC family         1
+
+-------------------------
+
+--- Cluster 376 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Acyl-CoA dehydrogenase, C-terminal domain                1
+Tripartite tricarboxylate transporter family receptor    1
+
+-------------------------
+
+--- Cluster 377 (Total Proteins: 7) ---
+Top 10 most frequent functions:
+signature_description
+ribP_PPkin: ribose-phosphate diphosphokinase               1
+N-terminal domain of ribose phosphate pyrophosphokinase    1
+Hsp70 protein                                              1
+Periplasmic binding protein                                1
+Imelysin                                                   1
+
+-------------------------
+
+--- Cluster 378 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+ATP synthase                              1
+ATP synthase gamma subunit signature.     1
+OsmC-like protein                         1
+Elongation factor Tu C-terminal domain    1
+
+-------------------------
+
+--- Cluster 379 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+SurA N-terminal domain                       1
+Lipopolysaccharide-assembly, LptC-related    1
+
+-------------------------
+
+--- Cluster 380 (Total Proteins: 46) ---
+Top 10 most frequent functions:
+signature_description
+Peptide deformylase signature                  4
+Pseudomurein endo-isopeptidase Pei             1
+Cell division protein ZapA                     1
+CpeT/CpcT family (DUF1001)                     1
+pept_deformyl: peptide deformylase             1
+Polypeptide deformylase                        1
+2OG-Fe(II) oxygenase superfamily               1
+MazG nucleotide pyrophosphohydrolase domain    1
+Zeta toxin                                     1
+AcrB/AcrD/AcrF family                          1
+
+-------------------------
+
+--- Cluster 381 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+2-keto-3-deoxy-galactonokinase                1
+NifU-like domain                              1
+Ribosomal protein S6                          1
+S6: ribosomal protein bS6                     1
+Ribosomal protein S6 signature.               1
+Cation efflux family                          1
+Putative undecaprenyl diphosphate synthase    1
+
+-------------------------
+
+--- Cluster 382 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+PD-(D/E)XK nuclease superfamily                          2
+Polyphosphate kinase N-terminal domain                   1
+Sulfurtransferase TusA                                   1
+Uncharacterized protein family UPF0033 signature.        1
+Tetratricopeptide repeat                                 1
+Outer membrane lipoprotein                               1
+Ribonuclease III family signature.                       1
+Ribonuclease-III-like                                    1
+Sigma 54 modulation protein / S30EA ribosomal protein    1
+Uncharacterized protein family UPF0076 signature.        1
+
+-------------------------
+
+--- Cluster 383 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+SlyX                1
+PspA/IM30 family    1
+
+-------------------------
+
+--- Cluster 384 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+Phage tail assembly chaperone protein    1
+
+-------------------------
+
+--- Cluster 385 (Total Proteins: 16) ---
+Top 10 most frequent functions:
+signature_description
+Putative aminopeptidase                     1
+Protein of unknown function DUF86           1
+haemagglutination activity domain           1
+Protein of unknown function (FYDLN_acid)    1
+FYDLN_acid: TIGR02300 family protein        1
+
+-------------------------
+
+--- Cluster 386 (Total Proteins: 11) ---
+Top 10 most frequent functions:
+signature_description
+Amidase                                         1
+eIF-1A: translation initiation factor eIF-1A    1
+Translation initiation factor 1A / IF-1         1
+Aldose 1-epimerase                              1
+
+-------------------------
+
+--- Cluster 387 (Total Proteins: 21) ---
+Top 10 most frequent functions:
+signature_description
+Protein of unknown function    1
+Proline dehydrogenase          1
+FMN-dependent dehydrogenase    1
+
+-------------------------
+
+--- Cluster 388 (Total Proteins: 67) ---
+Top 10 most frequent functions:
+signature_description
+Ribosomal protein S7e                                           2
+recA bacterial DNA recombination protein                        1
+UDP-glucose/GDP-mannose dehydrogenase family, central domain    1
+Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain     1
+
+-------------------------
+
+--- Cluster 389 (Total Proteins: 6) ---
+Top 10 most frequent functions:
+signature_description
+Manganese superoxide dismutase signature                      3
+Acetohydroxy acid isomeroreductase, catalytic domain          1
+Iron/manganese superoxide dismutases, alpha-hairpin domain    1
+
+-------------------------
+
+--- Cluster 390 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+Glutamine amidotransferase class-I                 1
+Polyphosphate kinase 2 (PPK2)                      1
+ATP-dependent Clp protease adaptor protein ClpS    1
+Homocysteine S-methyltransferase                   1
+
+-------------------------
+
+--- Cluster 391 (Total Proteins: 8) ---
+Top 10 most frequent functions:
+signature_description
+Arginase family                                    1
+Class II Aldolase and Adducin N-terminal domain    1
+Large eukaryotic DNA virus major capsid protein    1
+Proteasome assembly chaperone 4                    1
+
+-------------------------
+
+--- Cluster 392 (Total Proteins: 23) ---
+Top 10 most frequent functions:
+signature_description
+ocin_TIGR03798: nif11-like leader peptide domain    1
+Nif11 domain                                        1
+DNA gyrase B subunit, carboxyl terminus             1
+Endonuclease I                                      1
+
+-------------------------
+
+--- Cluster 393 (Total Proteins: 19) ---
+Top 10 most frequent functions:
+signature_description
+Recombination, repair and ssDNA binding protein UvsY    1
+Ribosomal silencing factor during starvation            1
+Antitoxin Phd_YefM, type II toxin-antitoxin system      1
+phd_fam: prevent-host-death family protein              1
+
+-------------------------
+
+--- Cluster 394 (Total Proteins: 5) ---
+Top 10 most frequent functions:
+signature_description
+PHP domain                                         1
+Glycosyltransferase family 28 N-terminal domain    1
+CutA1 divalent ion tolerance protein               1
+
+-------------------------
+
+--- Cluster 395 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+Bacterial DNA-binding protein    1
+
+-------------------------
+
+--- Cluster 396 (Total Proteins: 12) ---
+Top 10 most frequent functions:
+signature_description
+RimM N-terminal domain                      1
+Ferrochelatase                              1
+Isocitrate/isopropylmalate dehydrogenase    1
+Base plate wedge protein 53                 1
+
+-------------------------
+
+--- Cluster 397 (Total Proteins: 55) ---
+Top 10 most frequent functions:
+signature_description
+Ribosomal protein L7/L12 C-terminal domain      1
+Domain of unknown function (DUF4278)            1
+Protein of unknown function (DUF3010)           1
+Uncharacterized ACR, YdiU/UPF0061 family        1
+tRNA pseudouridine synthase                     1
+Endodeoxyribonuclease RusA                      1
+Glutamine amidotransferase domain               1
+Protein of unknown function (DUF1501)           1
+Domain of unknown function (DUF4815)            1
+DegT/DnrJ/EryC1/StrS aminotransferase family    1
+
+-------------------------
+
+--- Cluster 398 (Total Proteins: 29) ---
+Top 10 most frequent functions:
+signature_description
+NADH-ubiquinone oxidoreductase-F iron-sulfur binding region        1
+Respiratory-chain NADH dehydrogenase 51 Kd subunit signature 2.    1
+Branched-chain amino acid ATP-binding cassette transporter         1
+SIS domain                                                         1
+Ribosomal protein S8                                               1
+Ribosomal protein S8 signature.                                    1
+Quinolinate synthetase A protein                                   1
+Imidazoleglycerol-phosphate dehydratase signature 2.               1
+Imidazoleglycerol-phosphate dehydratase                            1
+Hydantoinase B/oxoprolinase                                        1
+
+-------------------------
+
+--- Cluster 399 (Total Proteins: 22) ---
+Top 10 most frequent functions:
+signature_description
+Domain of unknown function (DUF4177)     1
+AbrB-like transcriptional regulator      1
+Elongation factor P signature.           1
+Elongation factor P, C-terminal          1
+Gp5 N-terminal OB domain                 1
+rplN_bact: ribosomal protein uL14        1
+Ribosomal protein L14p/L23e              1
+Ribosomal protein L14 signature.         1
+Bacteriophage translational regulator    1
+
+-------------------------
+
+--- Cluster 400 (Total Proteins: 9) ---
+Top 10 most frequent functions:
+signature_description
+Translationally controlled tumour protein    1
+Sigma-70 factor, region 1.2                  1
+ATP synthase delta (OSCP) subunit            1
+
+-------------------------
+
+--- Cluster 401 (Total Proteins: 18) ---
+Top 10 most frequent functions:
+signature_description
+dCTP_deam: deoxycytidine triphosphate deaminase    1
+dUTPase                                            1
+SAICAR synthetase                                  1
+SAICAR synthetase signature 1.                     1
+N-acetylmuramoyl-L-alanine amidase                 1
+Molybdopterin oxidoreductase                       1
+
+-------------------------
+
+--- Cluster 402 (Total Proteins: 44) ---
+Top 10 most frequent functions:
+signature_description
+Prokaryotic integration host factor signature    6
+Bacterial DNA-binding protein                    2
+Aldo/keto reductase family                       1
+Class-II DAHP synthetase family                  1
+Protein of unknwon function (DUF3310)            1
+Phage late-transcription coactivator             1
+PhoH-like protein                                1
+Methyladenine glycosylase                        1
+
+-------------------------
+
+--- Cluster 403 (Total Proteins: 27) ---
+Top 10 most frequent functions:
+signature_description
+70kDa heat shock protein signature                         3
+Ham1 family                                                1
+Heat shock hsp70 proteins family signature 1.              1
+Hsp70 protein                                              1
+Type I restriction enzyme R protein N terminus (HSDR_N)    1
+haloacid dehalogenase-like hydrolase                       1
+Bifunctional nuclease                                      1
+Virus neck protein                                         1
+
+-------------------------
+

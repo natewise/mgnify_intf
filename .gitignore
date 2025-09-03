@@ -5,3 +5,4 @@ hmm/*
 results/*
 studies/*
 scripts/__pycache__/*
+*.zip
